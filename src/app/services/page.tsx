@@ -108,7 +108,7 @@ export default function ServicesPage() {
                         onClick={() => setActiveService(service.id)}
                         className={`w-full text-left px-4 py-3 rounded-lg transition-colors flex items-center gap-3 ${
                           activeService === service.id
-                            ? 'bg-green-50 text-green-700 border-l-4 border-green-500'
+                            ? 'bg-sage-50 text-sage-700 border-l-4 border-sage-500'
                             : 'text-gray-600 hover:bg-gray-50'
                         }`}
                       >
@@ -118,7 +118,7 @@ export default function ServicesPage() {
                   </nav>
 
                   {/* Guidance Box */}
-                  <div className="mt-8 p-4 border border-green-200 rounded-lg bg-green-50">
+                  <div className="mt-8 p-4 border border-sage-200 rounded-lg bg-sage-50">
                     <h4 className="font-semibold text-gray-900 mb-2">Need Guidance?</h4>
                     <p className="text-sm text-gray-600 mb-4">
                       Not sure which therapy is right for you? Book a free 15-min discovery call.
@@ -143,8 +143,8 @@ export default function ServicesPage() {
                 {/* TCM Section */}
                 <div id="tcm" className="mb-16">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
-                      <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="w-10 h-10 bg-sage-100 rounded-lg flex items-center justify-center">
+                      <svg className="w-5 h-5 text-sage-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
                       </svg>
                     </div>
@@ -160,7 +160,7 @@ export default function ServicesPage() {
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {tcmServices.map((service) => (
                       <div key={service.name} className="bg-white p-6 rounded-xl border border-gray-100 hover:shadow-lg transition-shadow">
-                        <div className="w-12 h-12 bg-green-50 rounded-lg flex items-center justify-center mb-4 text-green-600">
+                        <div className="w-12 h-12 bg-sage-50 rounded-lg flex items-center justify-center mb-4 text-sage-600">
                           {service.icon}
                         </div>
                         <h4 className="font-semibold text-gray-900 mb-2">{service.name}</h4>
@@ -175,8 +175,8 @@ export default function ServicesPage() {
                   <div className="grid lg:grid-cols-2 gap-8 items-center">
                     <div>
                       <div className="flex items-center gap-3 mb-4">
-                        <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
-                          <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div className="w-10 h-10 bg-sage-100 rounded-lg flex items-center justify-center">
+                          <svg className="w-5 h-5 text-sage-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
                           </svg>
                         </div>
@@ -187,32 +187,32 @@ export default function ServicesPage() {
                       </p>
                       <ul className="space-y-3 mb-6">
                         <li className="flex items-center gap-2 text-gray-700">
-                          <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                          <svg className="w-5 h-5 text-sage-500" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
                           </svg>
                           Improve posture and spinal alignment
                         </li>
                         <li className="flex items-center gap-2 text-gray-700">
-                          <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                          <svg className="w-5 h-5 text-sage-500" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
                           </svg>
                           Reduce back pain and neck tension
                         </li>
                         <li className="flex items-center gap-2 text-gray-700">
-                          <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                          <svg className="w-5 h-5 text-sage-500" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
                           </svg>
                           Enhance breathing and vocal projection
                         </li>
                       </ul>
-                      <a href="#" className="text-green-600 hover:text-green-700 font-medium flex items-center gap-1">
+                      <a href="#" className="text-sage-600 hover:text-sage-700 font-medium flex items-center gap-1">
                         Learn more about Alexander Technique
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
                         </svg>
                       </a>
                     </div>
-                    <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-green-100 to-green-200">
+                    <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-sage-100 to-sage-200">
                       <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600')] bg-cover bg-center" />
                     </div>
                   </div>
@@ -226,8 +226,8 @@ export default function ServicesPage() {
                     </div>
                     <div className="order-1 lg:order-2">
                       <div className="flex items-center gap-3 mb-4">
-                        <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
-                          <svg className="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                        <div className="w-10 h-10 bg-sage-100 rounded-lg flex items-center justify-center">
+                          <svg className="w-5 h-5 text-sage-600" fill="currentColor" viewBox="0 0 24 24">
                             <circle cx="12" cy="12" r="3"/>
                           </svg>
                         </div>
@@ -251,8 +251,8 @@ export default function ServicesPage() {
                   <div className="grid lg:grid-cols-2 gap-8 items-center">
                     <div>
                       <div className="flex items-center gap-3 mb-4">
-                        <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
-                          <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div className="w-10 h-10 bg-sage-100 rounded-lg flex items-center justify-center">
+                          <svg className="w-5 h-5 text-sage-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
                           </svg>
                         </div>

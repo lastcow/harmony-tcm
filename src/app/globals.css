@@ -10,6 +10,18 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Sage Green Color Palette */
+  --color-sage-50: #f4f7f1;
+  --color-sage-100: #e6ece0;
+  --color-sage-200: #cdd9c3;
+  --color-sage-300: #adc09d;
+  --color-sage-400: #8aa676;
+  --color-sage-500: #6b8a54;
+  --color-sage-600: #536d41;
+  --color-sage-700: #435636;
+  --color-sage-800: #38462e;
+  --color-sage-900: #2f3b28;
 }
 
 body {

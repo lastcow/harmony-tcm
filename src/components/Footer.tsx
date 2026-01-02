@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <svg className="w-8 h-8 text-green-500" viewBox="0 0 24 24" fill="currentColor">
+              <svg className="w-8 h-8 text-sage-500" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2L4 6v12l8 4 8-4V6l-8-4zm0 2.5L18 8v8l-6 3-6-3V8l6-3.5z"/>
                 <path d="M12 6c-1.5 0-3 1-3 3s1.5 3 3 3 3-1 3-3-1.5-3-3-3z"/>
               </svg>
