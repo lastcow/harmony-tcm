@@ -9,9 +9,17 @@ export default function HomePage() {
       <Header />
       <main className="overflow-hidden">
         {/* Hero Section */}
-        <section className="relative min-h-[90vh] flex items-center bg-gradient-to-br from-sage-50 via-white to-sage-50">
-          {/* Decorative Elements */}
-          <div className="absolute inset-0 opacity-[0.03] bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMzAgMzBtLTI4IDBoNTZ6IiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==')] bg-repeat" />
+        <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+          {/* Background Image */}
+          <div className="absolute inset-0">
+            <img
+              src="/images/hero-01.JPG"
+              alt="Harmony TCM - Traditional Chinese Medicine"
+              className="w-full h-full object-cover"
+            />
+            {/* Sage Green Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-br from-sage-50/95 via-white/90 to-sage-50/95" />
+          </div>
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
