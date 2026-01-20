@@ -315,8 +315,9 @@ export default function HomePage() {
                     <div>
                       <div className="text-sm text-gray-500 mb-1">Office Hours</div>
                       <div className="text-lg font-semibold text-gray-900">
-                        Mon-Fri: 9:00 AM - 6:00 PM<br />
-                        Sat: 10:00 AM - 4:00 PM
+                        Monday: 9:00 AM - 5:00 PM<br />
+                        Saturday: 9:00 AM - 5:00 PM<br />
+                        <span className="text-base">Other days: By appointment only</span>
                       </div>
                     </div>
                   </div>
