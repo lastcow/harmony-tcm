@@ -198,7 +198,7 @@ export default function AboutPage() {
               Schedule a consultation with Dr. Lau to discuss your needs and discover how our integrative approach can help you thrive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="/book" variant="secondary">
+              <Button href="https://portal.holbie.com/prc-appt-form/GT5/DCW/0/direct" variant="secondary">
                 Book Appointment
               </Button>
               <Button href="/contact" variant="outline">

@@ -285,7 +285,7 @@ export default function ServicesPage() {
               Whether you are seeking relief from pain, stress reduction, or a holistic approach to health, our practitioners are here to guide you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="/book" variant="primary">
+              <Button href="https://portal.holbie.com/prc-appt-form/GT5/DCW/0/direct" variant="primary">
                 Book an Appointment
               </Button>
               <Button href="/pricing" variant="outline">

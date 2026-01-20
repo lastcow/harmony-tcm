@@ -133,15 +133,17 @@ export default function FeePage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="/book"
+              <a
+                href="https://portal.holbie.com/prc-appt-form/GT5/DCW/0/direct"
                 className="inline-flex items-center justify-center gap-2 bg-sage-600 hover:bg-sage-700 text-white px-8 py-3.5 rounded-lg font-medium transition-colors shadow-lg text-lg"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
                 <span>Book Your Consultation</span>
-              </Link>
+              </a>
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 border-2 border-sage-600 hover:bg-sage-50 text-sage-700 px-8 py-3.5 rounded-lg font-medium transition-colors text-lg"
