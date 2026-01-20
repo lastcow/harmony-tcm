@@ -37,12 +37,12 @@ export default function BoardCertifiedPage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                Kristy Hanley, L.Ac., Dipl.Ac., is board certified by the National Certification Commission for Acupuncture and Oriental Medicine (NCCAOM), the national body that validates competency in acupuncture and herbal medicine. As founder and owner of Resilient Health Acupuncture & Wellness (RHA), she also leads a team of board-certified practitioners.
+                Dr. Lau Hanley, L.Ac., Dipl.Ac., is board certified by the National Certification Commission for Acupuncture and Oriental Medicine (NCCAOM), the national body that validates competency in acupuncture and herbal medicine. As founder and owner of Resilient Health Acupuncture & Wellness (RHA), she also leads a team of board-certified practitioners.
               </p>
 
               <blockquote className="border-l-4 border-sage-500 pl-6 py-2 my-8 bg-sage-50 rounded-r-lg">
                 <p className="text-gray-700 italic">
-                  &ldquo;Every practitioner at RHA is board certified,&rdquo; Kristy says. &ldquo;It&apos;s a requirement. We may be the only acupuncture clinic in Maryland where the entire staff is certified. So no matter who you see, they&apos;ve met that national standard.&rdquo;
+                  &ldquo;Every practitioner at RHA is board certified,&rdquo; Dr. Lau says. &ldquo;It&apos;s a requirement. We may be the only acupuncture clinic in Maryland where the entire staff is certified. So no matter who you see, they&apos;ve met that national standard.&rdquo;
                 </p>
               </blockquote>
 
@@ -54,17 +54,10 @@ export default function BoardCertifiedPage() {
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-                Before the board: Kristy&apos;s path
+                Before the board: Dr. Lau&apos;s path
               </h2>
               <p className="text-gray-700 mb-6">
-                Acupuncture wasn&apos;t on Kristy&apos;s radar until her mother&apos;s breast cancer diagnosis. Another patient recommended acupuncture for anxiety and sleep, and within a few sessions her mother felt better. Kristy, then a supervisor at Jenny Craig, found a new calling and enrolled at The Atlantic Institute of Oriental Medicine, where faculty emphasized board certification.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-                The early 2000s: setting a higher bar
-              </h2>
-              <p className="text-gray-700 mb-6">
-                &ldquo;In 2004, acupuncture felt like the wild, wild West,&rdquo; Kristy says. &ldquo;Across the U.S., there wasn&apos;t much regulation or a clear minimum standard.&rdquo; At her school, things were different. &ldquo;After two years of study, our entire class sat for the NCCAOM national boards. Every single one of us passed.&rdquo; Board certification even preceded licensure and graduation. By the time they finished, they held master&apos;s degrees and national board certifications.
+                When her beloved Airedale terrier, Toby, developed severe arthritis, the veterinarian recommended surgery—but without any guarantee that it would restore his quality of life. Growing up in a family rooted in Traditional Chinese Medicine, Dr. Lau had rarely experienced conventional medical care as a child; instead, her family relied on herbal remedies and time-honored healing practices. Her belief in TCM deepened after her uncle successfully treated her dysmenorrhea and a herniated disc with acupuncture. Witnessing its remarkable ability to restore mobility and relieve pain inspired her to begin her own journey in Traditional Chinese Medicine. Today, Toby has regained his ability to enjoy normal daily activities—an outcome that continues to affirm Dr. Lau&apos;s lifelong faith in the healing power of TCM.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -112,7 +105,7 @@ export default function BoardCertifiedPage() {
 
               <div className="bg-sage-50 border border-sage-200 rounded-xl p-6 my-8">
                 <p className="text-gray-700 italic">
-                  &ldquo;More than a thousand acupuncturists practice in Maryland,&rdquo; Kristy notes. &ldquo;A check of the NCCAOM site suggests maybe 300 are nationally board certified. That&apos;s important to know.&rdquo;
+                  &ldquo;More than a thousand acupuncturists practice in Maryland,&rdquo; Dr. Lau notes. &ldquo;A check of the NCCAOM site suggests maybe 300 are nationally board certified. That&apos;s important to know.&rdquo;
                 </p>
               </div>
 
@@ -120,7 +113,7 @@ export default function BoardCertifiedPage() {
                 Certification versus safety
               </h2>
               <p className="text-gray-700 mb-6">
-                &ldquo;Acupuncture isn&apos;t dangerous in and of itself,&rdquo; Kristy says. &ldquo;That&apos;s part of why it&apos;s such a great modality—few contraindications or risks. But wherever you go, you want someone who has shown the highest level of training. That&apos;s what the Dipl.Ac. designation signals—beyond L.Ac. alone.&rdquo;
+                &ldquo;Acupuncture isn&apos;t dangerous in and of itself,&rdquo; Dr. Lau says. &ldquo;That&apos;s part of why it&apos;s such a great modality—few contraindications or risks. But wherever you go, you want someone who has shown the highest level of training. That&apos;s what the Dipl.Ac. designation signals—beyond L.Ac. alone.&rdquo;
               </p>
 
               <p className="text-gray-700 mb-6">

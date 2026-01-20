@@ -1,21 +1,32 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Cormorant_Garamond, Noto_Sans_SC, Noto_Serif_SC } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const cormorant = Cormorant_Garamond({
+  variable: "--font-cormorant",
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const notoSans = Noto_Sans_SC({
+  variable: "--font-noto-sans",
   subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+  display: "swap",
+});
+
+const notoSerif = Noto_Serif_SC({
+  variable: "--font-noto-serif-sc",
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Harmony TCM | Integrative Wellness Center",
-  description: "A fusion of Traditional Chinese Medicine and modern somatic practices. We guide you on a holistic path to wellness, harmonizing body, mind, and spirit.",
-  keywords: ["TCM", "Traditional Chinese Medicine", "Acupuncture", "Alexander Technique", "Wellness", "Holistic Health", "San Francisco"],
+  title: "Harmony TCM | Traditional Chinese Medicine & Acupuncture",
+  description: "Experience the profound healing wisdom of Traditional Chinese Medicine. Acupuncture, herbal medicine, cupping, and holistic therapies to restore balance in body, mind, and spirit.",
+  keywords: ["Traditional Chinese Medicine", "TCM", "Acupuncture", "Herbal Medicine", "Cupping", "Moxibustion", "Tui Na", "Holistic Health", "Wellness", "San Francisco"],
 };
 
 export default function RootLayout({
@@ -26,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${cormorant.variable} ${notoSans.variable} ${notoSerif.variable} antialiased`}
       >
         {children}
       </body>

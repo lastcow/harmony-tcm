@@ -107,8 +107,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Visit Us</h3>
                     <p className="text-gray-600">
-                      123 Wellness Way, Suite 400<br />
-                      San Francisco, CA 94110
+                      24 S Broadway<br />
+                      Frostburg, MD 21532
                     </p>
                   </div>
                 </div>
@@ -123,8 +123,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Call Us</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+15551234567" className="hover:text-sage-600 transition-colors">
-                        (555) 123-4567
+                      <a href="tel:+17174905991" className="hover:text-sage-600 transition-colors">
+                        (717) 490-5991
                       </a>
                     </p>
                   </div>
@@ -140,8 +140,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email Us</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:hello@harmonytcm.com" className="hover:text-sage-600 transition-colors">
-                        hello@harmonytcm.com
+                      <a href="mailto:info@atlasintegrativeclinic.com" className="hover:text-sage-600 transition-colors">
+                        info@atlasintegrativeclinic.com
                       </a>
                     </p>
                   </div>
@@ -152,16 +152,16 @@ export default function ContactPage() {
                   <h3 className="font-semibold text-gray-900 mb-4">Office Hours</h3>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li className="flex justify-between">
-                      <span>Monday - Friday</span>
-                      <span>9:00 AM - 6:00 PM</span>
+                      <span>Monday</span>
+                      <span>9:00 AM - 5:00 PM</span>
                     </li>
                     <li className="flex justify-between">
                       <span>Saturday</span>
-                      <span>10:00 AM - 4:00 PM</span>
+                      <span>9:00 AM - 5:00 PM</span>
                     </li>
                     <li className="flex justify-between">
-                      <span>Sunday</span>
-                      <span>Closed</span>
+                      <span>Other days</span>
+                      <span>By appointment only</span>
                     </li>
                   </ul>
                 </div>
@@ -244,7 +244,7 @@ export default function ContactPage() {
                             value={formData.phone}
                             onChange={handleChange}
                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sage-500 focus:border-transparent transition-all"
-                            placeholder="(555) 123-4567"
+                            placeholder="(717) 490-5991"
                           />
                         </div>
 

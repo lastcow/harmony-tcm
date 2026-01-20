@@ -2,38 +2,69 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1a1a1a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-noto-sans);
+  --font-serif: var(--font-cormorant);
 
-  /* Sage Green Color Palette */
-  --color-sage-50: #f4f7f1;
-  --color-sage-100: #e6ece0;
-  --color-sage-200: #cdd9c3;
-  --color-sage-300: #adc09d;
-  --color-sage-400: #8aa676;
-  --color-sage-500: #6b8a54;
-  --color-sage-600: #536d41;
-  --color-sage-700: #435636;
-  --color-sage-800: #38462e;
-  --color-sage-900: #2f3b28;
+  /* Professional TCM Color Palette */
+  /* Primary - Sage Green */
+  --color-primary-50: #f6f7f5;
+  --color-primary-100: #e8ebe5;
+  --color-primary-200: #d1d9cc;
+  --color-primary-300: #b3c2a8;
+  --color-primary-400: #94a883;
+  --color-primary-500: #7a9167;
+  --color-primary-600: #607550;
+  --color-primary-700: #4c5c41;
+  --color-primary-800: #3f4a37;
+  --color-primary-900: #353e30;
+
+  /* Accent - Warm Copper */
+  --color-accent-50: #fdf8f6;
+  --color-accent-100: #f9ebe5;
+  --color-accent-200: #f3d5c8;
+  --color-accent-300: #e9b8a3;
+  --color-accent-400: #dc9478;
+  --color-accent-500: #c97856;
+  --color-accent-600: #b86344;
+  --color-accent-700: #9a5039;
+  --color-accent-800: #7e4433;
+  --color-accent-900: #693c2e;
+
+  /* Neutral - Warm Gray */
+  --color-neutral-50: #fafaf9;
+  --color-neutral-100: #f5f5f4;
+  --color-neutral-200: #e7e5e4;
+  --color-neutral-300: #d6d3d1;
+  --color-neutral-400: #a8a29e;
+  --color-neutral-500: #78716c;
+  --color-neutral-600: #57534e;
+  --color-neutral-700: #44403c;
+  --color-neutral-800: #292524;
+  --color-neutral-900: #1c1917;
+
+  /* Keep sage for compatibility */
+  --color-sage-50: #f6f7f5;
+  --color-sage-100: #e8ebe5;
+  --color-sage-200: #d1d9cc;
+  --color-sage-300: #b3c2a8;
+  --color-sage-400: #94a883;
+  --color-sage-500: #7a9167;
+  --color-sage-600: #607550;
+  --color-sage-700: #4c5c41;
+  --color-sage-800: #3f4a37;
+  --color-sage-900: #353e30;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
-}
-
-/* Custom utility for vertical text */
-.writing-vertical {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
+  font-family: var(--font-sans), system-ui, sans-serif;
 }
 
 /* Smooth scrolling */
@@ -47,14 +78,95 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #f5f5f4;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
+  background: #d6d3d1;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a1a1a1;
+  background: #a8a29e;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.6s ease-out forwards;
+}
+
+/* Stagger animations */
+.stagger-1 { animation-delay: 0.1s; opacity: 0; }
+.stagger-2 { animation-delay: 0.2s; opacity: 0; }
+.stagger-3 { animation-delay: 0.3s; opacity: 0; }
+.stagger-4 { animation-delay: 0.4s; opacity: 0; }
+
+/* Selection style */
+::selection {
+  background: rgba(122, 145, 103, 0.2);
+  color: #1c1917;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid #7a9167;
+  outline-offset: 2px;
+}
+
+/* Professional card hover effect */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.1);
+}
+
+/* Subtle gradient backgrounds */
+.gradient-subtle {
+  background: linear-gradient(180deg, #ffffff 0%, #fafaf9 100%);
+}
+
+.gradient-section {
+  background: linear-gradient(180deg, #f5f5f4 0%, #ffffff 100%);
 }

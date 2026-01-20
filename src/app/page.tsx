@@ -7,286 +7,394 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <main>
+      <main className="overflow-hidden">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-sage-50 to-white py-16 lg:py-24">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <span className="inline-flex items-center gap-2 text-sage-600 text-sm font-medium mb-4">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                  </svg>
-                  HOLISTIC WELLNESS CENTER
-                </span>
-                <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                  Restore Your<br />
-                  <span className="text-sage-500">Natural Balance</span>
+        <section className="relative min-h-[90vh] flex items-center bg-gradient-to-br from-sage-50 via-white to-sage-50">
+          {/* Decorative Elements */}
+          <div className="absolute inset-0 opacity-[0.03] bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMzAgMzBtLTI4IDBoNTZ6IiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==')] bg-repeat" />
+
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
+            <div className="grid lg:grid-cols-2 gap-16 items-center">
+              <div className="animate-fade-in-up">
+                <div className="inline-flex items-center gap-2 px-4 py-2 bg-sage-100/80 backdrop-blur-sm rounded-full mb-8">
+                  <div className="w-2 h-2 bg-sage-500 rounded-full animate-pulse" />
+                  <span className="text-sage-700 text-sm font-medium tracking-wide">
+                    NOW ACCEPTING NEW PATIENTS
+                  </span>
+                </div>
+
+                <h1 className="font-serif text-5xl lg:text-7xl font-light text-gray-900 mb-6 leading-tight">
+                  Ancient Wisdom.<br />
+                  <span className="italic text-sage-600">Modern Healing.</span>
                 </h1>
-                <p className="text-lg text-gray-600 mb-8 max-w-lg">
-                  Experience the fusion of Traditional Chinese Medicine and modern somatic practices. We guide you on a path to wellness, harmonizing body, mind, and spirit.
+
+                <p className="text-xl text-gray-600 leading-relaxed mb-10 max-w-xl">
+                  Experience the transformative power of Traditional Chinese Medicine.
+                  Personalized acupuncture and holistic therapies designed for your unique path to wellness.
                 </p>
+
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button href="/book" variant="primary">
-                    Book a Consultation
+                  <Button href="/book" variant="primary" size="lg">
+                    <span>Schedule Consultation</span>
+                    <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
                   </Button>
-                  <Button href="/services" variant="secondary">
+                  <Button href="/services" variant="outline" size="lg">
                     Explore Services
                   </Button>
                 </div>
-              </div>
-              <div className="relative">
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
-                  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800')] bg-cover bg-center" />
-                </div>
-                <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg hidden lg:block">
+
+                {/* Trust Indicators */}
+                <div className="flex flex-wrap items-center gap-8 mt-12 pt-8 border-t border-sage-200">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-sage-100 rounded-full flex items-center justify-center">
-                      <svg className="w-6 h-6 text-sage-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    <div className="w-10 h-10 bg-sage-100 rounded-full flex items-center justify-center">
+                      <svg className="w-5 h-5 text-sage-600" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-900">15+ Years</p>
-                      <p className="text-sm text-gray-500">of Experience</p>
+                      <div className="text-sm font-semibold text-gray-900">Board Certified</div>
+                      <div className="text-xs text-gray-500">Licensed Acupuncturist</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 bg-sage-100 rounded-full flex items-center justify-center">
+                      <svg className="w-5 h-5 text-sage-600" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <div className="text-sm font-semibold text-gray-900">15+ Years</div>
+                      <div className="text-xs text-gray-500">Clinical Experience</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 bg-sage-100 rounded-full flex items-center justify-center">
+                      <svg className="w-5 h-5 text-sage-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <div className="text-sm font-semibold text-gray-900">5,000+</div>
+                      <div className="text-xs text-gray-500">Patients Treated</div>
                     </div>
                   </div>
                 </div>
               </div>
+
+              {/* Hero Image */}
+              <div className="relative lg:h-[600px] h-[400px] animate-fade-in">
+                <div className="absolute inset-0 bg-gradient-to-br from-sage-200 to-sage-300 rounded-3xl overflow-hidden">
+                  <div className="absolute inset-0 bg-[url('/images/hero.jpg')] bg-cover bg-center opacity-90" />
+                  {/* Overlay gradient */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-sage-900/20 to-transparent" />
+                </div>
+
+                {/* Floating accent */}
+                <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-sage-500 rounded-full opacity-20 blur-3xl" />
+                <div className="absolute -top-8 -right-8 w-40 h-40 bg-sage-300 rounded-full opacity-20 blur-3xl" />
+              </div>
             </div>
           </div>
         </section>
 
-        {/* Philosophy Section */}
-        <section className="py-16 lg:py-24 bg-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="mb-6">
-              <svg className="w-12 h-12 mx-auto text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
-              </svg>
-            </div>
-            <blockquote className="text-2xl lg:text-3xl font-semibold text-gray-900 mb-6">
-              &ldquo;We believe in more than just needles.&rdquo;
-            </blockquote>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Our holistic path to wellness combines traditional healing arts with modern therapeutic techniques to restore your natural rhythm. We don&apos;t just treat symptoms; we cultivate the soil of your health so that vitality can take root.
-            </p>
-          </div>
-        </section>
+        {/* Testimonials Section */}
+        {/* <section className="py-24 lg:py-32 bg-white relative">
+          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-sage-300 to-transparent" />
 
-        {/* Services Overview Section */}
-        <section className="py-16 lg:py-24 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <span className="text-sm text-gray-500 uppercase tracking-wider">Our Offerings</span>
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-2 mb-4">
-                The Four Pillars of Healing
+            <div className="text-center mb-16">
+              <span className="text-sage-600 text-sm font-medium tracking-widest uppercase">Testimonials</span>
+              <h2 className="font-serif text-4xl lg:text-5xl font-light text-gray-900 mt-4 mb-6">
+                Voices of <span className="italic text-sage-600">Transformation</span>
               </h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                An interdisciplinary blend of therapies designed for total well-being.
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Real stories from patients who have experienced healing through Traditional Chinese Medicine.
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {/* Alexander Technique */}
-              <Link href="/services#alexander" className="group bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all">
-                <div className="w-12 h-12 bg-sage-50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-sage-100 transition-colors">
-                  <svg className="w-6 h-6 text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
-                  </svg>
-                </div>
-                <h3 className="font-semibold text-gray-900 mb-2">Alexander Technique</h3>
-                <p className="text-sm text-gray-600">
-                  Re-educating the body to release harmful tension and restore natural ease of movement.
-                </p>
-              </Link>
+            <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
+              {[
+                {
+                  quote: "After years of chronic back pain, Dr. Lau's acupuncture treatments have given me my life back. I can finally enjoy activities with my family again.",
+                  author: "Sarah M.",
+                  role: "Patient for 2 years",
+                  rating: 5
+                },
+                {
+                  quote: "The herbal medicine protocol Dr. Lau created for my digestive issues worked when nothing else did. Her holistic approach truly makes a difference.",
+                  author: "Michael T.",
+                  role: "Patient for 1 year",
+                  rating: 5
+                },
+                {
+                  quote: "I was skeptical at first, but the results speak for themselves. My migraines have reduced by 80% and I feel more balanced overall.",
+                  author: "Jennifer L.",
+                  role: "Patient for 3 years",
+                  rating: 5
+                }
+              ].map((testimonial, index) => (
+                <div
+                  key={testimonial.author}
+                  className={`group bg-gradient-to-br from-sage-50 to-white p-8 rounded-2xl border border-sage-100 hover:border-sage-300 transition-all duration-500 hover:shadow-xl hover:-translate-y-2 animate-fade-in-up stagger-${index + 1}`}
+                >
+                  <div className="flex gap-1 mb-6">
+                    {[...Array(testimonial.rating)].map((_, i) => (
+                      <svg key={i} className="w-5 h-5 text-sage-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                    ))}
+                  </div>
 
-              {/* Craniosacral Therapy */}
-              <Link href="/services#craniosacral" className="group bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all">
-                <div className="w-12 h-12 bg-sage-50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-sage-100 transition-colors">
-                  <svg className="w-6 h-6 text-sage-500" fill="currentColor" viewBox="0 0 24 24">
-                    <circle cx="12" cy="12" r="3"/>
-                    <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" strokeWidth={1.5}/>
-                  </svg>
-                </div>
-                <h3 className="font-semibold text-gray-900 mb-2">Craniosacral Therapy</h3>
-                <p className="text-sm text-gray-600">
-                  Gentle, profound touch to release tension deep in the central nervous system.
-                </p>
-              </Link>
+                  <blockquote className="relative">
+                    <svg className="absolute -top-2 -left-2 w-8 h-8 text-sage-200" fill="currentColor" viewBox="0 0 32 32">
+                      <path d="M10 8c-3.3 0-6 2.7-6 6v10h10V14H8c0-1.1.9-2 2-2V8zm14 0c-3.3 0-6 2.7-6 6v10h10V14h-6c0-1.1.9-2 2-2V8z"/>
+                    </svg>
+                    <p className="text-gray-700 leading-relaxed pl-6 mb-6 relative">
+                      {testimonial.quote}
+                    </p>
+                  </blockquote>
 
-              {/* TCM & Acupuncture */}
-              <Link href="/services#tcm" className="group bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all">
-                <div className="w-12 h-12 bg-sage-50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-sage-100 transition-colors">
-                  <svg className="w-6 h-6 text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
-                  </svg>
+                  <div className="flex items-center gap-4 pt-6 border-t border-sage-200">
+                    <div className="w-12 h-12 bg-gradient-to-br from-sage-400 to-sage-600 rounded-full flex items-center justify-center text-white font-semibold">
+                      {testimonial.author.charAt(0)}
+                    </div>
+                    <div>
+                      <div className="font-semibold text-gray-900">{testimonial.author}</div>
+                      <div className="text-sm text-gray-500">{testimonial.role}</div>
+                    </div>
+                  </div>
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2">TCM & Acupuncture</h3>
-                <p className="text-sm text-gray-600">
-                  Ancient needle therapy and herbal medicine to balance the flow of Qi energy.
-                </p>
-              </Link>
-
-              {/* Sound Therapy */}
-              <Link href="/services#sound" className="group bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all">
-                <div className="w-12 h-12 bg-sage-50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-sage-100 transition-colors">
-                  <svg className="w-6 h-6 text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
-                  </svg>
-                </div>
-                <h3 className="font-semibold text-gray-900 mb-2">Sound Therapy</h3>
-                <p className="text-sm text-gray-600">
-                  Using sonic resonance and vibrational frequency for deep cellular healing.
-                </p>
-              </Link>
+              ))}
             </div>
 
             <div className="text-center mt-12">
-              <Link href="/services" className="text-sage-600 hover:text-sage-700 font-medium inline-flex items-center gap-1">
-                View all services
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
+              <Link
+                href="/testimonials"
+                className="inline-flex items-center gap-2 text-sage-600 hover:text-sage-700 font-medium group"
+              >
+                <span>Read more patient stories</span>
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </Link>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        {/* Featured Services Section */}
-        <section className="py-16 lg:py-24 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-              <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-sage-100 to-sage-200">
-                <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600')] bg-cover bg-center" />
+        {/* Book Appointment CTA Section */}
+        <section className="relative py-24 lg:py-32 bg-gradient-to-br from-sage-600 via-sage-700 to-sage-800 overflow-hidden">
+          {/* Decorative background elements */}
+          <div className="absolute inset-0 opacity-10">
+            <div className="absolute top-0 left-1/4 w-96 h-96 bg-white rounded-full blur-3xl" />
+            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-sage-400 rounded-full blur-3xl" />
+          </div>
+
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div className="text-center">
+              <h2 className="font-serif text-4xl lg:text-6xl font-light text-white mb-6 leading-tight">
+                Begin Your <span className="italic">Healing Journey</span>
+              </h2>
+              <p className="text-xl text-sage-100 mb-10 max-w-3xl mx-auto leading-relaxed">
+                Schedule a comprehensive consultation to discuss your health goals and discover
+                how Traditional Chinese Medicine can restore balance and vitality to your life.
+              </p>
+
+              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                <Button href="/book" variant="secondary" size="lg" className="bg-white hover:bg-gray-50 text-sage-900 shadow-xl">
+                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                  <span>Book Your Consultation</span>
+                </Button>
+                <Button href="/contact" variant="outline" size="lg" className="border-2 border-white/30 hover:bg-white/10 text-white backdrop-blur-sm">
+                  Get in Touch
+                </Button>
               </div>
-              <div>
-                <span className="text-sm text-gray-500 uppercase tracking-wider">Featured Service</span>
-                <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mt-2 mb-4">Traditional Chinese Medicine</h3>
-                <p className="text-gray-600 mb-6">
-                  A comprehensive medical system used for over 2,000 years to diagnose, treat, and prevent illness. Our TCM services include acupuncture, herbal medicine, cupping, and more.
-                </p>
-                <div className="flex flex-wrap gap-3 mb-6">
-                  <span className="px-3 py-1 bg-sage-50 text-sage-700 rounded-full text-sm">Acupuncture</span>
-                  <span className="px-3 py-1 bg-sage-50 text-sage-700 rounded-full text-sm">Herbal Medicine</span>
-                  <span className="px-3 py-1 bg-sage-50 text-sage-700 rounded-full text-sm">Cupping</span>
-                  <span className="px-3 py-1 bg-sage-50 text-sage-700 rounded-full text-sm">Moxibustion</span>
+
+              {/* Additional info */}
+              <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                  <div className="text-3xl font-bold text-white mb-2">60-90</div>
+                  <div className="text-sm text-sage-100">Minutes consultation</div>
                 </div>
-                <Button href="/services#tcm" variant="primary">
-                  Learn More
-                </Button>
-              </div>
-            </div>
-
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1">
-                <span className="text-sm text-gray-500 uppercase tracking-wider">Popular Treatment</span>
-                <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mt-2 mb-4">Alexander Technique</h3>
-                <p className="text-gray-600 mb-6">
-                  An educational method teaching you how to change faulty postural habits, improving mobility, posture, and performance while providing relief from chronic stiffness and stress.
-                </p>
-                <ul className="space-y-3 mb-6">
-                  <li className="flex items-center gap-2 text-gray-700">
-                    <svg className="w-5 h-5 text-sage-500" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
-                    </svg>
-                    Improve posture and spinal alignment
-                  </li>
-                  <li className="flex items-center gap-2 text-gray-700">
-                    <svg className="w-5 h-5 text-sage-500" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
-                    </svg>
-                    Reduce back pain and neck tension
-                  </li>
-                  <li className="flex items-center gap-2 text-gray-700">
-                    <svg className="w-5 h-5 text-sage-500" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
-                    </svg>
-                    Enhance breathing and vocal projection
-                  </li>
-                </ul>
-                <Button href="/services#alexander" variant="primary">
-                  Learn More
-                </Button>
-              </div>
-              <div className="order-1 lg:order-2 aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-amber-100 to-amber-200">
-                <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600')] bg-cover bg-center" />
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                  <div className="text-3xl font-bold text-white mb-2">✓</div>
+                  <div className="text-sm text-sage-100">Most insurance accepted</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                  <div className="text-3xl font-bold text-white mb-2">Same</div>
+                  <div className="text-sm text-sage-100">Week appointments available</div>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Meet the Practitioner Section */}
-        <section className="py-16 lg:py-24 bg-gray-50">
+        {/* Contact Section */}
+        <section className="py-24 lg:py-32 bg-gradient-to-br from-gray-50 to-sage-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="relative">
-                <div className="aspect-[3/4] rounded-2xl overflow-hidden bg-gradient-to-br from-amber-100 to-amber-200">
-                  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1594897030264-ab7d87efc473?w=600')] bg-cover bg-center" />
-                </div>
-                <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg">
-                  <p className="font-semibold text-gray-900">Dr. Karen Lau</p>
-                  <p className="text-sm text-gray-600">Founder & Lead Practitioner</p>
-                </div>
-              </div>
+            <div className="grid lg:grid-cols-2 gap-16 items-start">
+              {/* Contact Info */}
               <div>
-                <span className="text-sm text-gray-500 tracking-wider">— MEET THE HEALER</span>
-                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-2 mb-4">
-                  Bridging the Gap Between Art & Medicine
+                <span className="text-sage-600 text-sm font-medium tracking-widest uppercase">Get in Touch</span>
+                <h2 className="font-serif text-4xl lg:text-5xl font-light text-gray-900 mt-4 mb-6">
+                  We're Here to <span className="italic text-sage-600">Help</span>
                 </h2>
-                <p className="text-sage-600 italic mb-6">L.Ac., Dipl. O.M., M.AmSAT</p>
-                <p className="text-gray-600 mb-6">
-                  Dr. Karen Lau brings a uniquely interdisciplinary background to her practice. Starting her journey as a professional cellist, she discovered the profound connection between physical resonance, posture, and health.
+                <p className="text-lg text-gray-600 mb-10 leading-relaxed">
+                  Have questions about our services or want to learn more about Traditional Chinese Medicine?
+                  Reach out and we'll be happy to assist you.
                 </p>
-                <p className="text-gray-600 italic mb-6">
-                  &ldquo;Whether I am holding a bow or a needle, the intention is the same: to listen to the body&apos;s subtle rhythms and guide it back to a state of harmony.&rdquo;
-                </p>
-                <div className="flex flex-wrap gap-3 mb-6">
-                  <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Doctor of Acupuncture</span>
-                  <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Cert. Alexander Technique</span>
-                  <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Professional Cellist</span>
+
+                <div className="space-y-6">
+                  {/* Phone */}
+                  <div className="flex items-start gap-4 group">
+                    <div className="w-12 h-12 bg-sage-100 group-hover:bg-sage-200 rounded-xl flex items-center justify-center flex-shrink-0 transition-colors">
+                      <svg className="w-6 h-6 text-sage-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <div className="text-sm text-gray-500 mb-1">Phone</div>
+                      <a href="tel:7174905991" className="text-lg font-semibold text-gray-900 hover:text-sage-600 transition-colors">
+                        (717) 490-5991
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Email */}
+                  <div className="flex items-start gap-4 group">
+                    <div className="w-12 h-12 bg-sage-100 group-hover:bg-sage-200 rounded-xl flex items-center justify-center flex-shrink-0 transition-colors">
+                      <svg className="w-6 h-6 text-sage-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <div className="text-sm text-gray-500 mb-1">Email</div>
+                      <a href="mailto:info@atlasintegrativeclinic.com" className="text-lg font-semibold text-gray-900 hover:text-sage-600 transition-colors">
+                        info@atlasintegrativeclinic.com
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Address */}
+                  <div className="flex items-start gap-4 group">
+                    <div className="w-12 h-12 bg-sage-100 group-hover:bg-sage-200 rounded-xl flex items-center justify-center flex-shrink-0 transition-colors">
+                      <svg className="w-6 h-6 text-sage-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <div className="text-sm text-gray-500 mb-1">Location</div>
+                      <div className="text-lg font-semibold text-gray-900">
+                        24 S Broadway<br />
+                        Frostburg, MD 21532
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Hours */}
+                  <div className="flex items-start gap-4 group">
+                    <div className="w-12 h-12 bg-sage-100 group-hover:bg-sage-200 rounded-xl flex items-center justify-center flex-shrink-0 transition-colors">
+                      <svg className="w-6 h-6 text-sage-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <div className="text-sm text-gray-500 mb-1">Office Hours</div>
+                      <div className="text-lg font-semibold text-gray-900">
+                        Mon-Fri: 9:00 AM - 6:00 PM<br />
+                        Sat: 10:00 AM - 4:00 PM
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <Button href="/about" variant="secondary">
-                  Read Full Bio
-                </Button>
               </div>
-            </div>
-          </div>
-        </section>
 
-        {/* Quote Section */}
-        <section className="py-16 lg:py-24 bg-white relative overflow-hidden">
-          <div className="absolute left-4 top-1/2 -translate-y-1/2 text-8xl font-bold text-gray-100 tracking-widest writing-vertical hidden lg:block">
-            HARMONY
-          </div>
-          <div className="absolute right-4 top-1/2 -translate-y-1/2 text-8xl font-bold text-gray-100 tracking-widest writing-vertical hidden lg:block">
-            BALANCE
-          </div>
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <div className="text-sage-500 text-6xl mb-6">&ldquo;</div>
-            <blockquote className="text-2xl lg:text-3xl font-serif italic text-gray-900 mb-4">
-              &ldquo;When the mind is at peace,<br />the body follows.&rdquo;
-            </blockquote>
-            <cite className="text-gray-500 not-italic">— CHINESE PROVERB</cite>
-          </div>
-        </section>
+              {/* Contact Form */}
+              <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-10 border border-sage-100">
+                <h3 className="font-serif text-2xl font-light text-gray-900 mb-6">
+                  Send Us a Message
+                </h3>
+                <form className="space-y-6">
+                  <div className="grid sm:grid-cols-2 gap-4">
+                    <div>
+                      <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
+                        First Name
+                      </label>
+                      <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-sage-500 focus:ring-2 focus:ring-sage-200 transition-colors outline-none"
+                        placeholder="John"
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
+                        Last Name
+                      </label>
+                      <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-sage-500 focus:ring-2 focus:ring-sage-200 transition-colors outline-none"
+                        placeholder="Doe"
+                      />
+                    </div>
+                  </div>
 
-        {/* CTA Section */}
-        <section className="py-16 lg:py-20 bg-sage-600">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-              Begin Your Journey to Wellness
-            </h2>
-            <p className="text-sage-100 mb-8 max-w-2xl mx-auto">
-              Schedule a consultation with Dr. Lau to discuss your needs and discover how our integrative approach can help you thrive.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="/book" variant="secondary">
-                Book Appointment
-              </Button>
-              <Button href="/contact" variant="outline">
-                Contact Us
-              </Button>
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-sage-500 focus:ring-2 focus:ring-sage-200 transition-colors outline-none"
+                      placeholder="john@example.com"
+                    />
+                  </div>
+
+                  <div>
+                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                      Phone Number
+                    </label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-sage-500 focus:ring-2 focus:ring-sage-200 transition-colors outline-none"
+                      placeholder="(555) 123-4567"
+                    />
+                  </div>
+
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                      Message
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows={5}
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-sage-500 focus:ring-2 focus:ring-sage-200 transition-colors outline-none resize-none"
+                      placeholder="Tell us about your health goals or any questions you have..."
+                    />
+                  </div>
+
+                  <Button variant="primary" size="lg" className="w-full">
+                    <span>Send Message</span>
+                    <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </Button>
+                </form>
+              </div>
             </div>
           </div>
         </section>
