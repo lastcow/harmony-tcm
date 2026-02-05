@@ -4,7 +4,7 @@ import Button from '@/components/Button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "General Health & Wellness | Harmony TCM",
+  title: "General Health & Wellness | Atlas Integrative Clinic",
   description: "Comprehensive holistic healthcare for overall wellness. Preventive care, immune support, and natural treatments for common health conditions.",
 };
 

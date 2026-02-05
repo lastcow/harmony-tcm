@@ -34,14 +34,9 @@ export default function Header() {
         <div className="flex justify-between items-center h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M12 2L4 7v10l8 5 8-5V7l-8-5z" strokeLinejoin="round"/>
-                <circle cx="12" cy="12" r="3"/>
-              </svg>
-            </div>
+            <img src="/images/logo.png" alt="Atlas Integrative Clinic" className="h-10 w-auto" />
             <span className="font-semibold text-lg text-neutral-900">
-              Harmony TCM
+              Atlas Integrative Clinic
             </span>
           </Link>
 

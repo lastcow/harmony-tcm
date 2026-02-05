@@ -4,7 +4,7 @@ import Button from '@/components/Button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Cosmetic & Beauty Acupuncture | Harmony TCM",
+  title: "Cosmetic & Beauty Acupuncture | Atlas Integrative Clinic",
   description: "Natural facial rejuvenation and beauty enhancement through cosmetic acupuncture. Non-invasive treatments for skin health, anti-aging, and radiant complexion.",
 };
 

@@ -4,7 +4,7 @@ import Button from '@/components/Button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Smoking Cessation & Addiction Support | Harmony TCM",
+  title: "Smoking Cessation & Addiction Support | Atlas Integrative Clinic",
   description: "Natural support for quitting smoking and overcoming addiction through acupuncture and holistic therapies that reduce cravings and withdrawal symptoms.",
 };
 

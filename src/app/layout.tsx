@@ -24,7 +24,7 @@ const notoSerif = Noto_Serif_SC({
 });
 
 export const metadata: Metadata = {
-  title: "Harmony TCM | Traditional Chinese Medicine & Acupuncture",
+  title: "Atlas Integrative Clinic | Traditional Chinese Medicine & Acupuncture",
   description: "Experience the profound healing wisdom of Traditional Chinese Medicine. Acupuncture, herbal medicine, cupping, and holistic therapies to restore balance in body, mind, and spirit.",
   keywords: ["Traditional Chinese Medicine", "TCM", "Acupuncture", "Herbal Medicine", "Cupping", "Moxibustion", "Tui Na", "Holistic Health", "Wellness", "San Francisco"],
 };

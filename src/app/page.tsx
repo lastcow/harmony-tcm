@@ -14,7 +14,7 @@ export default function HomePage() {
           <div className="absolute inset-0">
             <img
               src="/images/hero-01.JPG"
-              alt="Harmony TCM - Traditional Chinese Medicine"
+              alt="Atlas Integrative Clinic - Traditional Chinese Medicine"
               className="w-full h-full object-cover object-center"
             />
             {/* Sage Green Gradient Overlay */}

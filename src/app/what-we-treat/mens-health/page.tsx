@@ -4,7 +4,7 @@ import Button from '@/components/Button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Men's Health & Wellness | Harmony TCM",
+  title: "Men's Health & Wellness | Atlas Integrative Clinic",
   description: "Specialized holistic care for men's health concerns including vitality, hormonal balance, prostate health, and overall masculine wellness.",
 };
 

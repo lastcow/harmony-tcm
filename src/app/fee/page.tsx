@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fee | Harmony TCM",
+  title: "Fee | Atlas Integrative Clinic",
   description: "Transparent pricing for Alexander Technique, Craniosacral Therapy, Traditional Chinese Medicine, and Sound Therapy services. New patient visits, follow-up sessions, prepayment discount plans, and insurance information.",
 };
 

@@ -4,7 +4,7 @@ import Button from '@/components/Button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Children's Health & Pediatric Care | Harmony TCM",
+  title: "Children's Health & Pediatric Care | Atlas Integrative Clinic",
   description: "Gentle, natural healthcare for children. Safe and effective treatments for common childhood conditions, immune support, and developmental wellness.",
 };
 

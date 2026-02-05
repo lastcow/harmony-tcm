@@ -4,7 +4,7 @@ import Button from '@/components/Button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Chronic Pain & Pain Management | Harmony TCM",
+  title: "Chronic Pain & Pain Management | Atlas Integrative Clinic",
   description: "Evidence-based acupuncture and holistic treatments for chronic pain relief. Address back pain, arthritis, migraines, and more with personalized care.",
 };
 

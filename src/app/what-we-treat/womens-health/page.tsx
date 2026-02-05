@@ -4,7 +4,7 @@ import Button from '@/components/Button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Women's Health & Wellness | Harmony TCM",
+  title: "Women's Health & Wellness | Atlas Integrative Clinic",
   description: "Specialized holistic care for women's health including menstrual health, fertility, pregnancy support, menopause, and overall feminine wellness.",
 };
 

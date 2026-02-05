@@ -4,7 +4,7 @@ import Button from '@/components/Button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "What We Treat | Harmony TCM",
+  title: "What We Treat | Atlas Integrative Clinic",
   description: "Comprehensive Traditional Chinese Medicine treatments for chronic pain, mental health, women's health, sports injuries, and more. Evidence-based holistic care tailored to your needs.",
 };
 

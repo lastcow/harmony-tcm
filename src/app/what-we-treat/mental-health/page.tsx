@@ -4,7 +4,7 @@ import Button from '@/components/Button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Mental Health & Emotional Wellbeing | Harmony TCM",
+  title: "Mental Health & Emotional Wellbeing | Atlas Integrative Clinic",
   description: "Natural support for anxiety, depression, stress, and emotional balance through holistic acupuncture and mind-body therapies.",
 };
 

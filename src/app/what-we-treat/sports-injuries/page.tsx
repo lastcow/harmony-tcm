@@ -4,7 +4,7 @@ import Button from '@/components/Button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Sports Injuries & Athletic Performance | Harmony TCM",
+  title: "Sports Injuries & Athletic Performance | Atlas Integrative Clinic",
   description: "Accelerate recovery from sports injuries and enhance athletic performance with acupuncture and specialized treatments for active individuals.",
 };
 

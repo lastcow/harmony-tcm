@@ -72,7 +72,7 @@ export default function ContactPage() {
               style={{ border: 0 }}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Harmony TCM Location"
+              title="Atlas Integrative Clinic Location"
               className="grayscale pointer-events-none scale-110"
             />
             <div className="absolute inset-0 bg-white/80" />
