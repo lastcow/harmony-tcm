@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg-meh" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#eaeff5"/>
+      <stop offset="100%" style="stop-color:#e8f0ea"/>
+    </linearGradient>
+    <linearGradient id="vitality-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5a7fa8;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#7a9b6d;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="20" y="20" width="760" height="560" rx="30" ry="30" fill="url(#bg-meh)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="130" cy="130" r="50" fill="#4a6fa0" opacity="0.06"/>
+  <circle cx="680" cy="480" r="55" fill="#a3c490" opacity="0.06"/>
+  <circle cx="660" cy="110" r="35" fill="#4a6fa0" opacity="0.05"/>
+
+  <!-- Male figure outline - strong, standing -->
+  <!-- Head -->
+  <circle cx="400" cy="130" r="35" fill="none" stroke="#4a6fa0" stroke-width="2.5" opacity="0.7"/>
+  <!-- Neck -->
+  <line x1="400" y1="165" x2="400" y2="190" stroke="#4a6fa0" stroke-width="2.8" stroke-linecap="round"/>
+  <!-- Shoulders - broader -->
+  <path d="M400,190 Q398,208 340,218" fill="none" stroke="#4a6fa0" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M400,190 Q402,208 460,218" fill="none" stroke="#4a6fa0" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Arms -->
+  <path d="M340,218 L315,295 L305,350" fill="none" stroke="#4a6fa0" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M460,218 L485,295 L495,350" fill="none" stroke="#4a6fa0" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Torso -->
+  <path d="M365,210 L360,355" fill="none" stroke="#4a6fa0" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M435,210 L440,355" fill="none" stroke="#4a6fa0" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Waist -->
+  <path d="M365,310 L370,310" fill="none" stroke="#4a6fa0" stroke-width="0.5" opacity="0"/>
+  <!-- Hips -->
+  <path d="M360,355 Q400,370 440,355" fill="none" stroke="#4a6fa0" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Legs -->
+  <path d="M375,362 L365,450 L360,530" fill="none" stroke="#4a6fa0" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M425,362 L435,450 L440,530" fill="none" stroke="#4a6fa0" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Body vitality glow -->
+  <ellipse cx="400" cy="280" rx="55" ry="85" fill="url(#vitality-glow)"/>
+
+  <!-- Heart icon - chest area -->
+  <path d="M385,245 Q385,232 395,232 Q400,232 400,240 Q400,232 405,232 Q415,232 415,245 Q415,258 400,270 Q385,258 385,245Z" fill="#c47a7a" opacity="0.35" stroke="#c47a7a" stroke-width="1" opacity="0.5"/>
+  <!-- Heart pulse line -->
+  <path d="M370,252 L385,252 L390,240 L395,260 L400,245 L405,255 L415,252 L430,252" fill="none" stroke="#c47a7a" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Energy symbol - right side -->
+  <!-- Lightning/energy bolt -->
+  <path d="M560,220 L545,260 L565,260 L548,305" fill="none" stroke="#d4a060" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
+  <!-- Energy circles -->
+  <circle cx="555" cy="260" r="30" fill="#d4a060" opacity="0.06"/>
+  <circle cx="555" cy="260" r="42" fill="#d4a060" opacity="0.04"/>
+
+  <!-- Vitality/strength indicator - left side -->
+  <!-- Upward arrow with rings -->
+  <line x1="200" y1="310" x2="200" y2="220" stroke="#4a6fa0" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <path d="M188,235 L200,220 L212,235" fill="none" stroke="#4a6fa0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+  <!-- Meter bars -->
+  <rect x="185" y="310" width="30" height="6" rx="3" fill="#a3c490" opacity="0.3"/>
+  <rect x="185" y="298" width="30" height="6" rx="3" fill="#a3c490" opacity="0.35"/>
+  <rect x="185" y="286" width="30" height="6" rx="3" fill="#7a9b6d" opacity="0.4"/>
+  <rect x="185" y="274" width="30" height="6" rx="3" fill="#7a9b6d" opacity="0.35"/>
+  <rect x="185" y="262" width="30" height="6" rx="3" fill="#4a6fa0" opacity="0.3"/>
+
+  <!-- Sun/energy icon - top -->
+  <circle cx="400" cy="60" r="16" fill="#d4a060" opacity="0.2"/>
+  <circle cx="400" cy="60" r="10" fill="#d4a060" opacity="0.25"/>
+  <line x1="400" y1="38" x2="400" y2="32" stroke="#d4a060" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+  <line x1="400" y1="82" x2="400" y2="88" stroke="#d4a060" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+  <line x1="378" y1="60" x2="372" y2="60" stroke="#d4a060" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+  <line x1="422" y1="60" x2="428" y2="60" stroke="#d4a060" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+  <line x1="385" y1="45" x2="380" y2="40" stroke="#d4a060" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+  <line x1="415" y1="45" x2="420" y2="40" stroke="#d4a060" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+  <line x1="385" y1="75" x2="380" y2="80" stroke="#d4a060" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+  <line x1="415" y1="75" x2="420" y2="80" stroke="#d4a060" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+
+  <!-- Wellness circle around torso -->
+  <circle cx="400" cy="280" r="70" fill="none" stroke="#4a6fa0" stroke-width="0.8" opacity="0.12"/>
+  <circle cx="400" cy="280" r="90" fill="none" stroke="#7a9b6d" stroke-width="0.8" opacity="0.09"/>
+
+  <!-- Meridian/energy points on body -->
+  <circle cx="400" cy="210" r="3.5" fill="#4a6fa0" opacity="0.4"/>
+  <circle cx="400" cy="250" r="3.5" fill="#4a6fa0" opacity="0.4"/>
+  <circle cx="400" cy="290" r="4" fill="#7a9b6d" opacity="0.45"/>
+  <circle cx="400" cy="330" r="3.5" fill="#7a9b6d" opacity="0.4"/>
+
+  <!-- Connection lines to symbols -->
+  <path d="M435,250 Q490,245 530,250" fill="none" stroke="#d4a060" stroke-width="1" stroke-dasharray="3,4" opacity="0.2"/>
+  <path d="M365,280 Q290,278 225,290" fill="none" stroke="#4a6fa0" stroke-width="1" stroke-dasharray="3,4" opacity="0.2"/>
+
+  <!-- Leaf accents -->
+  <path d="M620,380 Q635,368 648,380 Q635,392 620,380Z" fill="#a3c490" opacity="0.25"/>
+  <path d="M150,350 Q165,340 175,352 Q165,362 150,352Z" fill="#a3c490" opacity="0.2"/>
+  <path d="M550,450 Q562,440 572,450 Q562,460 550,450Z" fill="#8bab78" opacity="0.2"/>
+
+  <!-- Small accent dots -->
+  <circle cx="280" cy="170" r="2" fill="#4a6fa0" opacity="0.2"/>
+  <circle cx="520" cy="160" r="2" fill="#4a6fa0" opacity="0.18"/>
+  <circle cx="300" cy="420" r="1.5" fill="#a3c490" opacity="0.2"/>
+  <circle cx="500" cy="400" r="1.5" fill="#7a9b6d" opacity="0.2"/>
+  <circle cx="250" cy="480" r="2" fill="#4a6fa0" opacity="0.15"/>
+
+  <!-- Bottom decorative wave -->
+  <path d="M200,510 Q300,495 400,505 Q500,515 600,500" fill="none" stroke="#4a6fa0" stroke-width="1" opacity="0.1"/>
+</svg>

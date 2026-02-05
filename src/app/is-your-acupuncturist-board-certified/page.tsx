@@ -37,34 +37,21 @@ export default function BoardCertifiedPage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                Dr. Lau Hanley, L.Ac., Dipl.Ac., is board certified by the National Certification Commission for Acupuncture and Oriental Medicine (NCCAOM), the national body that validates competency in acupuncture and herbal medicine. As founder and owner of Resilient Health Acupuncture & Wellness (RHA), she also leads a team of board-certified practitioners.
+                Dr. Karen Lau, DMA, Dipl.Ac., L.Ac., is board certified by the National Certification Board for Acupuncture and Herbal Medicine (NCBAHM), the national certifying organization responsible for assessing and validating professional competence in the practice of acupuncture and herbal medicine.
               </p>
-
-              <blockquote className="border-l-4 border-sage-500 pl-6 py-2 my-8 bg-sage-50 rounded-r-lg">
-                <p className="text-gray-700 italic">
-                  &ldquo;Every practitioner at RHA is board certified,&rdquo; Dr. Lau says. &ldquo;It&apos;s a requirement. We may be the only acupuncture clinic in Maryland where the entire staff is certified. So no matter who you see, they&apos;ve met that national standard.&rdquo;
-                </p>
-              </blockquote>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
                 Why board certification matters
               </h2>
               <p className="text-gray-700 mb-6">
-                Certification signals a deeper commitment to training and professional development. It also reassures patients that the person performing treatment has met a national benchmark for competence, not just state minimums.
+                Board certification signifies advanced training and a sustained commitment to professional development within a given discipline. It assures that practitioners have met rigorous national standards of knowledge, skill, and clinical competence, exceeding minimum state licensure requirements and promoting higher quality and consistency of care.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-                Before the board: Dr. Lau&apos;s path
-              </h2>
-              <p className="text-gray-700 mb-6">
-                When her beloved Airedale terrier, Toby, developed severe arthritis, the veterinarian recommended surgery—but without any guarantee that it would restore his quality of life. Growing up in a family rooted in Traditional Chinese Medicine, Dr. Lau had rarely experienced conventional medical care as a child; instead, her family relied on herbal remedies and time-honored healing practices. Her belief in TCM deepened after her uncle successfully treated her dysmenorrhea and a herniated disc with acupuncture. Witnessing its remarkable ability to restore mobility and relieve pain inspired her to begin her own journey in Traditional Chinese Medicine. Today, Toby has regained his ability to enjoy normal daily activities—an outcome that continues to affirm Dr. Lau&apos;s lifelong faith in the healing power of TCM.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-                What NCCAOM certification means
+                What NCBAHM certification means
               </h2>
               <p className="text-gray-700 mb-4">
-                The NCCAOM offers several designations:
+                The NCBAHM offers several designations:
               </p>
               <ul className="list-none space-y-3 mb-6">
                 <li className="flex items-start gap-3">
@@ -81,31 +68,9 @@ export default function BoardCertifiedPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-4">
-                These designations are regarded as hallmarks of excellence in acupuncture and Asian medicine. Certification also requires ongoing education:
-              </p>
-              <ul className="list-none space-y-3 mb-6">
-                <li className="flex items-start gap-3">
-                  <svg className="w-5 h-5 text-sage-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
-                  </svg>
-                  <span className="text-gray-700">Every four years, board-certified practitioners complete 60 professional development credits in core competencies and meet other requirements.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <svg className="w-5 h-5 text-sage-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
-                  </svg>
-                  <span className="text-gray-700">CPR recertification every four years is also required and is separate from state licensure.</span>
-                </li>
-              </ul>
-
-              <p className="text-gray-700 mb-6">
-                Regulations vary by state. Some, like Pennsylvania, require board certification before licensing. Maryland currently does not, but as of 2026, new Maryland licenses will require NCCAOM certification and a degree from an appropriately accredited school.
-              </p>
-
               <div className="bg-sage-50 border border-sage-200 rounded-xl p-6 my-8">
                 <p className="text-gray-700 italic">
-                  &ldquo;More than a thousand acupuncturists practice in Maryland,&rdquo; Dr. Lau notes. &ldquo;A check of the NCCAOM site suggests maybe 300 are nationally board certified. That&apos;s important to know.&rdquo;
+                  &ldquo;Maryland is home to over one thousand practicing acupuncturists,&rdquo; Dr. Lau explains. &ldquo;However, a review of the NCBAHM database indicates that only approximately 300 hold national board certification, a distinction that warrants careful consideration.&rdquo;
                 </p>
               </div>
 
@@ -113,18 +78,11 @@ export default function BoardCertifiedPage() {
                 Certification versus safety
               </h2>
               <p className="text-gray-700 mb-6">
-                &ldquo;Acupuncture isn&apos;t dangerous in and of itself,&rdquo; Dr. Lau says. &ldquo;That&apos;s part of why it&apos;s such a great modality—few contraindications or risks. But wherever you go, you want someone who has shown the highest level of training. That&apos;s what the Dipl.Ac. designation signals—beyond L.Ac. alone.&rdquo;
+                &ldquo;Acupuncture is generally regarded as a low-risk therapeutic intervention,&rdquo; Dr. Lau notes. &ldquo;One of its strengths lies in its limited contraindications and relatively minimal risk profile. Nonetheless, patients should seek practitioners who have demonstrated the highest standards of education and clinical training. The Dipl.Ac. credential indicates attainment of advanced national certification beyond state licensure alone.&rdquo;
               </p>
 
-              <p className="text-gray-700 mb-6">
-                Degrees are advancing as well. &ldquo;You can earn a doctorate in acupuncture or Oriental medicine,&rdquo; she adds. &ldquo;But that doesn&apos;t automatically mean you&apos;ve taken the national boards.&rdquo; Her advice: look for NCCAOM certification. &ldquo;You might not know where someone went to school or what their doctorate focused on. But when you choose an NCCAOM-certified acupuncturist, you know they&apos;re working at the highest nationally measured level.&rdquo;
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-                The bottom line
-              </h2>
               <p className="text-gray-700 mb-8">
-                Board certification reflects commitment, competency, and continued learning. At Resilient Health Acupuncture & Wellness, you&apos;ll see board-certified acupuncturists who prioritize clinical excellence and patient care.
+                She further explains that academic credentials within the field are also evolving. &ldquo;Doctoral degrees in acupuncture or Oriental medicine are now available,&rdquo; Dr. Lau states. &ldquo;However, possession of a doctorate does not necessarily indicate completion of national board examinations.&rdquo; Accordingly, she recommends prioritizing NCBAHM certification. &ldquo;While patients may be unfamiliar with the specifics of a practitioner&apos;s educational background or doctoral specialization, selection of an NCBAHM-certified acupuncturist ensures that the practitioner meets the highest nationally standardized measures of competence.&rdquo;
               </p>
 
               <div className="bg-gray-900 text-white rounded-xl p-8 mt-12">

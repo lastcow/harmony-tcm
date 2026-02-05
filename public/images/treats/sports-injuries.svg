@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg-si" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#edf2f5"/>
+      <stop offset="100%" style="stop-color:#e8efe8"/>
+    </linearGradient>
+    <linearGradient id="muscle-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a060;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#c49050;stop-opacity:0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="20" y="20" width="760" height="560" rx="30" ry="30" fill="url(#bg-si)"/>
+
+  <!-- Decorative shapes -->
+  <circle cx="130" cy="110" r="50" fill="#7aa0b4" opacity="0.06"/>
+  <circle cx="670" cy="480" r="55" fill="#a3c490" opacity="0.06"/>
+  <circle cx="680" cy="120" r="35" fill="#d4a060" opacity="0.06"/>
+
+  <!-- Motion lines background -->
+  <line x1="180" y1="200" x2="120" y2="195" stroke="#7aa0b4" stroke-width="1.5" stroke-linecap="round" opacity="0.15"/>
+  <line x1="175" y1="220" x2="105" y2="218" stroke="#7aa0b4" stroke-width="1.2" stroke-linecap="round" opacity="0.12"/>
+  <line x1="180" y1="240" x2="115" y2="240" stroke="#7aa0b4" stroke-width="1" stroke-linecap="round" opacity="0.1"/>
+
+  <!-- Athletic figure in running pose -->
+  <!-- Head -->
+  <circle cx="340" cy="140" r="30" fill="none" stroke="#5a8fa8" stroke-width="2.5" opacity="0.8"/>
+
+  <!-- Neck tilted forward -->
+  <line x1="355" y1="165" x2="365" y2="185" stroke="#5a8fa8" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Torso - leaning forward -->
+  <path d="M365,185 L340,195" fill="none" stroke="#5a8fa8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M365,185 L400,198" fill="none" stroke="#5a8fa8" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="370,195" y1="195" x2="395" y2="330" stroke="#5a8fa8" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Left arm - back swing -->
+  <path d="M340,195 L290,260 L270,300" fill="none" stroke="#5a8fa8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right arm - forward swing -->
+  <path d="M400,198 L450,230 L480,215" fill="none" stroke="#5a8fa8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hips -->
+  <path d="M385,330 Q400,340 415,330" fill="none" stroke="#5a8fa8" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Left leg - back stride -->
+  <path d="M385,335 L340,410 L290,480" fill="none" stroke="#5a8fa8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Left foot -->
+  <path d="M290,480 L275,485" fill="none" stroke="#5a8fa8" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Right leg - forward stride -->
+  <path d="M415,335 L460,420 L500,490" fill="none" stroke="#5a8fa8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right foot -->
+  <path d="M500,490 L520,492" fill="none" stroke="#5a8fa8" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Highlighted muscle/joint areas -->
+  <!-- Right knee highlight -->
+  <ellipse cx="460" cy="420" rx="22" ry="20" fill="url(#muscle-glow)" opacity="0.6"/>
+  <ellipse cx="460" cy="420" rx="13" ry="12" fill="#d4a060" opacity="0.2"/>
+
+  <!-- Left shoulder highlight -->
+  <ellipse cx="340" cy="195" rx="18" ry="16" fill="url(#muscle-glow)" opacity="0.6"/>
+  <ellipse cx="340" cy="195" rx="10" ry="9" fill="#d4a060" opacity="0.2"/>
+
+  <!-- Right elbow highlight -->
+  <ellipse cx="450" cy="230" rx="15" ry="14" fill="url(#muscle-glow)" opacity="0.5"/>
+
+  <!-- Left ankle highlight -->
+  <ellipse cx="290" cy="478" rx="14" ry="12" fill="url(#muscle-glow)" opacity="0.5"/>
+
+  <!-- Recovery symbols -->
+  <!-- Recovery circle with arrow - right side -->
+  <circle cx="620" cy="200" r="35" fill="#a3c490" opacity="0.12" stroke="#7a9b6d" stroke-width="1.5"/>
+  <path d="M605,185 A20,20 0 1,1 630,210" fill="none" stroke="#7a9b6d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M628,200 L630,210 L620,210" fill="none" stroke="#7a9b6d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Plus/healing cross -->
+  <line x1="620" y1="300" x2="620" y2="330" stroke="#7a9b6d" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="605" y1="315" x2="635" y2="315" stroke="#7a9b6d" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="620" cy="315" r="22" fill="none" stroke="#a3c490" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Upward arrow - improvement -->
+  <line x1="620" y1="420" x2="620" y2="380" stroke="#5a8fa8" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <path d="M610,395 L620,380 L630,395" fill="none" stroke="#5a8fa8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+
+  <!-- Speed/motion lines around figure -->
+  <line x1="250" y1="310" x2="210" y2="308" stroke="#5a8fa8" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
+  <line x1="260" y1="330" x2="215" y2="330" stroke="#5a8fa8" stroke-width="1.2" stroke-linecap="round" opacity="0.18"/>
+  <line x1="255" y1="350" x2="220" y2="352" stroke="#5a8fa8" stroke-width="1" stroke-linecap="round" opacity="0.15"/>
+
+  <!-- Energy dots trailing -->
+  <circle cx="230" cy="280" r="3" fill="#5a8fa8" opacity="0.2"/>
+  <circle cx="210" cy="300" r="2.5" fill="#5a8fa8" opacity="0.17"/>
+  <circle cx="200" cy="320" r="2" fill="#5a8fa8" opacity="0.14"/>
+  <circle cx="195" cy="340" r="1.5" fill="#5a8fa8" opacity="0.11"/>
+
+  <!-- Connection dotted lines from highlights to recovery -->
+  <path d="M478,420 Q540,380 605,315" fill="none" stroke="#a3c490" stroke-width="1" stroke-dasharray="4,4" opacity="0.3"/>
+  <path d="M358,195 Q480,180 605,195" fill="none" stroke="#a3c490" stroke-width="1" stroke-dasharray="4,4" opacity="0.25"/>
+
+  <!-- Ground line suggestion -->
+  <path d="M200,510 Q350,500 400,505 Q500,510 600,500" fill="none" stroke="#7a9b6d" stroke-width="1" opacity="0.15"/>
+
+  <!-- Decorative leaves -->
+  <path d="M660,400 Q678,388 690,400 Q678,412 660,400Z" fill="#a3c490" opacity="0.25"/>
+  <path d="M130,450 Q145,438 158,450 Q145,460 130,450Z" fill="#a3c490" opacity="0.2"/>
+
+  <!-- Small accent dots -->
+  <circle cx="540" cy="140" r="2" fill="#d4a060" opacity="0.3"/>
+  <circle cx="160" cy="350" r="2" fill="#5a8fa8" opacity="0.25"/>
+  <circle cx="550" cy="450" r="1.5" fill="#a3c490" opacity="0.2"/>
+</svg>

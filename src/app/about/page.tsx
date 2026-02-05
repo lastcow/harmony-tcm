@@ -17,7 +17,7 @@ export default function AboutPage() {
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
                   </svg>
-                  ABOUT OUR PRACTICE
+                  ABOUT US
                 </span>
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
                   Restoring Balance<br />
@@ -25,32 +25,33 @@ export default function AboutPage() {
                   <span className="text-sage-500">Integrative Care</span>
                 </h1>
                 <p className="text-lg text-gray-600 max-w-lg">
-                  A fusion of ancient wisdom and modern somatic practice. We guide you on a holistic path to wellness, harmonizing body, mind, and spirit.
+                  Supporting the body as a connected, self-regulating system through a fusion of ancient wisdom and modern somatic practice.
                 </p>
               </div>
               <div className="relative">
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-sage-100 to-sage-200">
-                  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800')] bg-cover bg-center" />
+                <div className="aspect-[4/3.5] rounded-2xl overflow-hidden bg-gradient-to-br from-sage-100 to-sage-200">
+                  <div className="absolute inset-0 bg-[url('/images/about-hero.jpg')] bg-cover bg-[center_32%] rounded-2xl" />
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Philosophy Quote Section */}
+        {/* Our Approach Section */}
         <section className="py-16 lg:py-24 bg-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="mb-6">
-              <svg className="w-12 h-12 mx-auto text-sage-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
-              </svg>
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-8">Our Integrative Approach</h2>
+            <div className="space-y-6">
+              <p className="text-gray-600 leading-relaxed">
+                Our integrative care approach combines the Alexander Technique, Craniosacral Therapy, Traditional Chinese Medicine and Sound Therapy to support the body as a connected, self-regulating system. Rather than treating isolated symptoms, this approach focuses on improving nervous system balance, movement efficiency, circulation, and overall physiological regulation.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                The Alexander Technique addresses posture and movement habits, reducing unnecessary tension and improving coordination in daily life. Craniosacral Therapy gently calms the nervous system, releases deep-held restrictions, and supports stress recovery. Traditional Chinese Medicine helps restore internal balance, support pain relief, and promote healthy organ and nervous system function. Sound Therapy further enhances relaxation and emotional regulation through soothing vibration and frequency.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                Together, these therapies work synergistically to reduce stress, improve physical comfort, enhance body awareness, and support long-term well-being. Treatments are individualized and designed to help the body shift out of chronic tension or stress and into a state where healing, resilience, and optimal function can occur naturally.
+              </p>
             </div>
-            <blockquote className="text-2xl lg:text-3xl font-semibold text-gray-900 mb-6">
-              &ldquo;We believe in more than just needles.&rdquo;
-            </blockquote>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Our holistic path to wellness combines traditional healing arts with modern therapeutic techniques to restore your natural rhythm. We don&apos;t just treat symptoms; we cultivate the soil of your health so that vitality can take root.
-            </p>
           </div>
         </section>
 
@@ -84,7 +85,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">Alexander Technique</h3>
                 <p className="text-sm text-gray-600">
-                  Re-educating the body to release harmful tension and restore natural ease of movement.
+                  Addresses posture and movement habits, reducing unnecessary tension and improving coordination in daily life.
                 </p>
               </div>
 
@@ -98,7 +99,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">Craniosacral Therapy</h3>
                 <p className="text-sm text-gray-600">
-                  Gentle, profound touch to release tension deep in the central nervous system.
+                  Gently calms the nervous system, releases deep-held restrictions, and supports stress recovery.
                 </p>
               </div>
 
@@ -111,7 +112,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">TCM & Acupuncture</h3>
                 <p className="text-sm text-gray-600">
-                  Ancient needle therapy and herbal medicine to balance the flow of Qi energy.
+                  Restores internal balance, supports pain relief, and promotes healthy organ and nervous system function.
                 </p>
               </div>
 
@@ -124,67 +125,52 @@ export default function AboutPage() {
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">Sound Therapy</h3>
                 <p className="text-sm text-gray-600">
-                  Using sonic resonance and vibrational frequency for deep cellular healing.
+                  Enhances relaxation and emotional regulation through soothing vibration and frequency.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Meet the Healer Section */}
+        {/* Meet Dr. Lau Section */}
         <section className="py-16 lg:py-24 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="relative">
-                <div className="aspect-[3/4] rounded-2xl overflow-hidden bg-gradient-to-br from-amber-100 to-amber-200">
-                  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1594897030264-ab7d87efc473?w=600')] bg-cover bg-center" />
-                </div>
-                <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg">
-                  <p className="font-semibold text-gray-900">Dr. Karen Lau</p>
-                  <p className="text-sm text-gray-600">Founder & Lead Practitioner</p>
-                </div>
-              </div>
-              <div>
-                <span className="text-sm text-gray-500 tracking-wider">— MEET THE HEALER</span>
-                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-2 mb-4">
-                  Bridging the Gap Between Art & Medicine
-                </h2>
-                <p className="text-sage-600 italic mb-6">L.Ac., Dipl. O.M., M.AmSAT</p>
-                <div className="space-y-4 text-gray-600">
-                  <p>
-                    Dr. Karen Lau brings a uniquely interdisciplinary background to her practice. Starting her journey as a professional cellist, she discovered the profound connection between physical resonance, posture, and health.
-                  </p>
-                  <p>
-                    After recovering from a performance-related injury through the Alexander Technique and Acupuncture, she dedicated her life to mastering these modalities. Today, she weaves together the precision of Traditional Chinese Medicine with the somatic awareness of movement therapy.
-                  </p>
-                  <p className="italic">
-                    &ldquo;Whether I am holding a bow or a needle,&rdquo; Karen says, &ldquo;the intention is the same: to listen to the body&apos;s subtle rhythms and guide it back to a state of harmony.&rdquo;
-                  </p>
-                </div>
-                <div className="flex flex-wrap gap-3 mt-6">
-                  <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Doctor of Acupuncture</span>
-                  <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Cert. Alexander Technique</span>
-                  <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Professional Cellist</span>
-                </div>
-              </div>
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <span className="text-sm text-gray-500 tracking-wider">— MEET THE PRACTITIONER</span>
+              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-2 mb-4">
+                Dr. Karen Lau
+              </h2>
+              <p className="text-sage-600 italic">DMA, Dipl.Ac., L.Ac.</p>
             </div>
-          </div>
-        </section>
 
-        {/* Quote Section */}
-        <section className="py-16 lg:py-24 bg-gray-50 relative overflow-hidden">
-          <div className="absolute left-4 top-1/2 -translate-y-1/2 text-8xl font-bold text-gray-200/50 tracking-widest writing-vertical hidden lg:block">
-            HARMONY
-          </div>
-          <div className="absolute right-4 top-1/2 -translate-y-1/2 text-8xl font-bold text-gray-200/50 tracking-widest writing-vertical hidden lg:block">
-            BALANCE
-          </div>
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <div className="text-sage-500 text-6xl mb-6">&ldquo;</div>
-            <blockquote className="text-2xl lg:text-3xl font-serif italic text-gray-900 mb-4">
-              &ldquo;When the mind is at peace,<br />the body follows.&rdquo;
-            </blockquote>
-            <cite className="text-gray-500 not-italic">— CHINESE PROVERB</cite>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Dr. Karen Lau, DMA, Dipl.Ac., L.Ac., is board certified by the National Certification Board for Acupuncture and Herbal Medicine (NCBAHM) and also a state-licensed acupuncturist with advanced training in Traditional Chinese Medicine and integrative health care. She holds a master&apos;s degree in Acupuncture and is currently a doctoral candidate, with a clinical focus on cancer care, nervous system regulation, reproductive health, pain management, and holistic wellness.
+              </p>
+
+              <p className="mb-6">
+                In addition to her medical training, Dr. Lau is an internationally certified Alexander Technique instructor, integrating movement education and neuromuscular re-education into her clinical and educational work. She also holds a Doctoral degree in Cello Performance, reflecting her deep commitment to artistic excellence and somatic awareness.
+              </p>
+
+              <p className="mb-6">
+                As an educator, Dr. Lau previously served on the faculty of the Sichuan Conservatory of Music and currently serves as faculty at Frostburg State University, where she teaches and mentors students in higher education. Her interdisciplinary background allows her to bridge music, movement, and health sciences in both academic and clinical settings.
+              </p>
+
+              <p className="mb-6">
+                Outside of university teaching, Dr. Lau is deeply committed to youth education. She works closely with younger generations, guiding students who have gone on to become international competition winners and members of the Maryland Classic Youth Orchestra. Her pedagogical approach emphasizes technical excellence, integrated mind-body awareness, and the cultivation of long-term artistic sustainability.
+              </p>
+
+              <p className="mb-6">
+                Through her unique integration of acupuncture, movement education, and music performance, Dr. Lau brings a rare, multidimensional perspective to healing, education, and human performance.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-3 mt-8 justify-center">
+              <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">NCBAHM Board Certified</span>
+              <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Licensed Acupuncturist</span>
+              <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Alexander Technique Instructor</span>
+              <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">DMA Cello Performance</span>
+            </div>
           </div>
         </section>
 

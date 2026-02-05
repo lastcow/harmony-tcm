@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg-cb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f0f2"/>
+      <stop offset="100%" style="stop-color:#f0ede8"/>
+    </linearGradient>
+    <linearGradient id="face-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0d4c8;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#e8c4b8;stop-opacity:0.1"/>
+    </linearGradient>
+    <linearGradient id="gold-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4b896"/>
+      <stop offset="100%" style="stop-color:#c8a87e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="20" y="20" width="760" height="560" rx="30" ry="30" fill="url(#bg-cb)"/>
+
+  <!-- Decorative soft circles -->
+  <circle cx="150" cy="120" r="50" fill="#d4b896" opacity="0.08"/>
+  <circle cx="650" cy="480" r="65" fill="#d4a0b0" opacity="0.08"/>
+  <circle cx="680" cy="130" r="40" fill="#a3c490" opacity="0.08"/>
+
+  <!-- Large face outline - front view -->
+  <ellipse cx="400" cy="260" rx="100" ry="125" fill="url(#face-glow)" stroke="#c4a090" stroke-width="2" opacity="0.9"/>
+
+  <!-- Hair suggestion -->
+  <path d="M300,230 Q300,130 400,120 Q500,130 500,230" fill="none" stroke="#c4a090" stroke-width="2" opacity="0.5"/>
+  <path d="M310,240 Q310,140 400,130 Q490,140 490,240" fill="none" stroke="#c4a090" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Eyebrows -->
+  <path d="M350,220 Q370,212 390,218" fill="none" stroke="#b8947e" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M410,218 Q430,212 450,220" fill="none" stroke="#b8947e" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Eyes - closed, serene -->
+  <path d="M355,240 Q372,232 390,240" fill="none" stroke="#b8947e" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M410,240 Q428,232 445,240" fill="none" stroke="#b8947e" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M400,250 Q395,270 398,280 Q400,282 402,280 Q405,270 400,250" fill="none" stroke="#c4a090" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Lips - gentle smile -->
+  <path d="M380,310 Q390,305 400,306 Q410,305 420,310" fill="none" stroke="#d4a0a0" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M380,310 Q400,320 420,310" fill="none" stroke="#d4a0a0" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Neck -->
+  <line x1="385" y1="385" x2="380" y2="430" stroke="#c4a090" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+  <line x1="415" y1="385" x2="420" y2="430" stroke="#c4a090" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Acupuncture points on face -->
+  <!-- Forehead points -->
+  <circle cx="400" cy="185" r="3.5" fill="#d4b896" opacity="0.7"/>
+  <circle cx="375" cy="195" r="3" fill="#d4b896" opacity="0.6"/>
+  <circle cx="425" cy="195" r="3" fill="#d4b896" opacity="0.6"/>
+  <circle cx="400" cy="205" r="3" fill="#d4b896" opacity="0.6"/>
+
+  <!-- Temple points -->
+  <circle cx="340" cy="230" r="3" fill="#d4b896" opacity="0.6"/>
+  <circle cx="460" cy="230" r="3" fill="#d4b896" opacity="0.6"/>
+
+  <!-- Cheek points -->
+  <circle cx="355" cy="280" r="3" fill="#d4b896" opacity="0.6"/>
+  <circle cx="445" cy="280" r="3" fill="#d4b896" opacity="0.6"/>
+  <circle cx="365" cy="300" r="2.5" fill="#d4b896" opacity="0.5"/>
+  <circle cx="435" cy="300" r="2.5" fill="#d4b896" opacity="0.5"/>
+
+  <!-- Jaw points -->
+  <circle cx="370" cy="340" r="3" fill="#d4b896" opacity="0.6"/>
+  <circle cx="430" cy="340" r="3" fill="#d4b896" opacity="0.6"/>
+  <circle cx="400" cy="355" r="3" fill="#d4b896" opacity="0.6"/>
+
+  <!-- Needle lines at key points -->
+  <line x1="400" y1="175" x2="400" y2="185" stroke="#c8a87e" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="330" y1="225" x2="340" y2="230" stroke="#c8a87e" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="470" y1="225" x2="460" y2="230" stroke="#c8a87e" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Botanical elements - left side -->
+  <!-- Large flower -->
+  <circle cx="170" cy="280" r="18" fill="#d4a0b0" opacity="0.25"/>
+  <circle cx="170" cy="280" r="10" fill="#d4a0b0" opacity="0.3"/>
+  <ellipse cx="152" cy="272" rx="10" ry="6" fill="#e0b0b8" opacity="0.3" transform="rotate(-30 152 272)"/>
+  <ellipse cx="188" cy="272" rx="10" ry="6" fill="#e0b0b8" opacity="0.3" transform="rotate(30 188 272)"/>
+  <ellipse cx="155" cy="292" rx="10" ry="6" fill="#e0b0b8" opacity="0.3" transform="rotate(20 155 292)"/>
+  <ellipse cx="185" cy="292" rx="10" ry="6" fill="#e0b0b8" opacity="0.3" transform="rotate(-20 185 292)"/>
+  <ellipse cx="170" cy="262" rx="6" ry="10" fill="#e0b0b8" opacity="0.3"/>
+
+  <!-- Stem and leaves -->
+  <path d="M170,298 Q168,340 175,380" fill="none" stroke="#8bab78" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M172,330 Q185,320 195,325" fill="none" stroke="#8bab78" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M195,325 Q185,325 180,335" fill="#a3c490" opacity="0.35"/>
+  <path d="M170,350 Q155,345 148,350" fill="none" stroke="#8bab78" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M148,350 Q158,348 165,358" fill="#a3c490" opacity="0.35"/>
+
+  <!-- Right side botanicals -->
+  <!-- Small flowers -->
+  <circle cx="620" cy="220" r="12" fill="#d4a0b0" opacity="0.2"/>
+  <circle cx="620" cy="220" r="6" fill="#d4b0b8" opacity="0.3"/>
+  <ellipse cx="608" cy="215" rx="7" ry="4" fill="#e0b8c0" opacity="0.25" transform="rotate(-25 608 215)"/>
+  <ellipse cx="632" cy="215" rx="7" ry="4" fill="#e0b8c0" opacity="0.25" transform="rotate(25 632 215)"/>
+  <ellipse cx="610" cy="228" rx="7" ry="4" fill="#e0b8c0" opacity="0.25" transform="rotate(15 610 228)"/>
+  <ellipse cx="630" cy="228" rx="7" ry="4" fill="#e0b8c0" opacity="0.25" transform="rotate(-15 630 228)"/>
+
+  <path d="M620,232 Q625,270 620,310" fill="none" stroke="#8bab78" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M622,260 Q635,252 645,258" fill="none" stroke="#8bab78" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M645,258 Q636,256 630,265" fill="#a3c490" opacity="0.3"/>
+
+  <!-- Leaf cluster top right -->
+  <path d="M580,130 Q600,115 615,130 Q600,140 580,130Z" fill="#a3c490" opacity="0.3"/>
+  <path d="M590,145 Q610,132 625,148 Q608,155 590,145Z" fill="#8bab78" opacity="0.25"/>
+
+  <!-- Leaf cluster bottom left -->
+  <path d="M120,420 Q140,408 155,420 Q140,432 120,420Z" fill="#a3c490" opacity="0.3"/>
+  <path d="M135,435 Q152,422 165,438 Q150,445 135,435Z" fill="#8bab78" opacity="0.25"/>
+
+  <!-- Small buds scattered -->
+  <circle cx="230" cy="180" r="5" fill="#d4a0b0" opacity="0.2"/>
+  <line x1="230" y1="185" x2="228" y2="200" stroke="#8bab78" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="560" cy="380" r="5" fill="#d4a0b0" opacity="0.2"/>
+  <line x1="560" y1="385" x2="562" y2="400" stroke="#8bab78" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Golden sparkle accents -->
+  <circle cx="320" cy="160" r="2" fill="#d4b896" opacity="0.5"/>
+  <circle cx="480" cy="170" r="1.5" fill="#d4b896" opacity="0.4"/>
+  <circle cx="280" cy="250" r="1.5" fill="#d4b896" opacity="0.45"/>
+  <circle cx="520" cy="260" r="2" fill="#d4b896" opacity="0.5"/>
+  <circle cx="340" cy="380" r="1.5" fill="#d4b896" opacity="0.4"/>
+  <circle cx="460" cy="370" r="1.5" fill="#d4b896" opacity="0.4"/>
+
+  <!-- Radiance lines around face -->
+  <line x1="280" y1="200" x2="265" y2="190" stroke="#d4b896" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+  <line x1="520" y1="200" x2="535" y2="190" stroke="#d4b896" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+  <line x1="280" y1="300" x2="262" y2="300" stroke="#d4b896" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+  <line x1="520" y1="300" x2="538" y2="300" stroke="#d4b896" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Decorative bottom botanical -->
+  <path d="M350,480 Q380,460 400,470 Q420,460 450,480" fill="none" stroke="#a3c490" stroke-width="1.5" opacity="0.3"/>
+  <path d="M370,490 Q390,475 400,480 Q410,475 430,490" fill="none" stroke="#8bab78" stroke-width="1.2" opacity="0.25"/>
+  <circle cx="400" cy="470" r="4" fill="#d4a0b0" opacity="0.25"/>
+</svg>

@@ -15,7 +15,7 @@ export default function HomePage() {
             <img
               src="/images/hero-01.JPG"
               alt="Harmony TCM - Traditional Chinese Medicine"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-center"
             />
             {/* Sage Green Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-sage-50/95 via-white/90 to-sage-50/95" />

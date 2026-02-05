@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "Fee | Harmony TCM",
-  description: "Transparent pricing for acupuncture and Traditional Chinese Medicine services. New patient visits, follow-up sessions, prepayment discount plans, and insurance information.",
+  description: "Transparent pricing for Alexander Technique, Craniosacral Therapy, Traditional Chinese Medicine, and Sound Therapy services. New patient visits, follow-up sessions, prepayment discount plans, and insurance information.",
 };
 
 export default function FeePage() {
@@ -36,57 +36,143 @@ export default function FeePage() {
         <section className="py-20 lg:py-28 bg-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
-            {/* New Patient Visit */}
+            {/* Alexander Technique */}
             <div className="mb-16">
-              <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-6 pb-4 border-b-2 border-sage-200">
-                <h2 className="font-serif text-3xl font-semibold text-gray-900 mb-2 sm:mb-0">
-                  New Patient Visit
-                </h2>
-                <div className="text-right">
-                  <p className="text-4xl font-bold text-sage-600">$165</p>
-                  <p className="text-sm text-gray-500 mt-1">approx. 90 minutes</p>
+              <h2 className="font-serif text-4xl font-semibold text-gray-900 mb-8 pb-4 border-b-2 border-sage-200">
+                Alexander Technique
+              </h2>
+              <div className="space-y-6">
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between pb-4 border-b border-sage-100">
+                  <h3 className="font-serif text-2xl font-medium text-gray-900 mb-2 sm:mb-0">
+                    New Patient Visit
+                  </h3>
+                  <div className="text-right">
+                    <p className="text-3xl font-bold text-sage-600">$125</p>
+                    <p className="text-sm text-gray-500 mt-1">60 minutes</p>
+                  </div>
                 </div>
-              </div>
-              <div className="prose prose-lg max-w-none">
-                <p className="text-gray-700 leading-relaxed">
-                  During your initial visit, you will complete the required intake paperwork and an informed consent form. Following check-in, a comprehensive discussion of your health history and treatment goals will take place. Based on this information, an individualized treatment plan will be developed, and your personalized acupuncture session will begin. After the treatment, related questions will be addressed, further recommendations will be provided as appropriate, and assistance with scheduling follow-up visits will be offered to support continuity of care and your ongoing wellness.
-                </p>
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
+                  <h3 className="font-serif text-2xl font-medium text-gray-900 mb-2 sm:mb-0">
+                    Follow-up Session
+                  </h3>
+                  <div className="text-right">
+                    <p className="text-3xl font-bold text-sage-600">$100</p>
+                    <p className="text-sm text-gray-500 mt-1">45 minutes</p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            {/* Follow-up Session */}
+            {/* Craniosacral Therapy */}
             <div className="mb-16">
-              <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-6 pb-4 border-b-2 border-sage-200">
-                <h2 className="font-serif text-3xl font-semibold text-gray-900 mb-2 sm:mb-0">
-                  Follow-up Session <span className="text-xl text-gray-600">(Existing Patient)</span>
-                </h2>
-                <div className="text-right">
-                  <p className="text-4xl font-bold text-sage-600">$125</p>
-                  <p className="text-sm text-gray-500 mt-1">approx. 1 hour</p>
+              <h2 className="font-serif text-4xl font-semibold text-gray-900 mb-8 pb-4 border-b-2 border-sage-200">
+                Craniosacral Therapy
+              </h2>
+              <div className="space-y-6">
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between pb-4 border-b border-sage-100">
+                  <h3 className="font-serif text-2xl font-medium text-gray-900 mb-2 sm:mb-0">
+                    New Patient Visit
+                  </h3>
+                  <div className="text-right">
+                    <p className="text-3xl font-bold text-sage-600">$145</p>
+                    <p className="text-sm text-gray-500 mt-1">90 minutes</p>
+                  </div>
+                </div>
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
+                  <h3 className="font-serif text-2xl font-medium text-gray-900 mb-2 sm:mb-0">
+                    Follow-up Session
+                  </h3>
+                  <div className="text-right">
+                    <p className="text-3xl font-bold text-sage-600">$125</p>
+                    <p className="text-sm text-gray-500 mt-1">60 minutes</p>
+                  </div>
                 </div>
               </div>
-              <div className="prose prose-lg max-w-none">
-                <p className="text-gray-700 leading-relaxed">
-                  Follow-up sessions are designed to monitor progress, adjust treatment plans, and support long-term results. By assessing changes in symptoms, function, and overall well-being, we ensure your care remains effective and personalized. These sessions also provide guidance on lifestyle, self-care, and preventive strategies to maintain optimal health.
-                </p>
+            </div>
+
+            {/* Traditional Chinese Medicine */}
+            <div className="mb-16">
+              <h2 className="font-serif text-4xl font-semibold text-gray-900 mb-8 pb-4 border-b-2 border-sage-200">
+                Traditional Chinese Medicine
+              </h2>
+
+              {/* New Patient Visit */}
+              <div className="mb-8">
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-4 pb-4 border-b border-sage-100">
+                  <h3 className="font-serif text-2xl font-medium text-gray-900 mb-2 sm:mb-0">
+                    New Patient Visit
+                  </h3>
+                  <div className="text-right">
+                    <p className="text-3xl font-bold text-sage-600">$165</p>
+                    <p className="text-sm text-gray-500 mt-1">approx. 90 minutes</p>
+                  </div>
+                </div>
+                <div className="prose prose-lg max-w-none">
+                  <p className="text-gray-700 leading-relaxed">
+                    During your initial visit, you will complete the required intake paperwork and an informed consent form. Following check-in, a comprehensive discussion of your health history and treatment goals will take place. Based on this information, an individualized treatment plan will be developed, and your personalized acupuncture session will begin. After the treatment, any questions you may have will be addressed, further recommendations will be provided as appropriate, and assistance with scheduling follow-up visits will be offered to support continuity of care and your ongoing wellness.
+                  </p>
+                </div>
+              </div>
+
+              {/* Follow-up Session */}
+              <div>
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-4 pb-4 border-b border-sage-100">
+                  <h3 className="font-serif text-2xl font-medium text-gray-900 mb-2 sm:mb-0">
+                    Follow-up Session <span className="text-lg text-gray-600">(Existing Patient)</span>
+                  </h3>
+                  <div className="text-right">
+                    <p className="text-3xl font-bold text-sage-600">$125</p>
+                    <p className="text-sm text-gray-500 mt-1">approx. 1 hour</p>
+                  </div>
+                </div>
+                <div className="prose prose-lg max-w-none">
+                  <p className="text-gray-700 leading-relaxed">
+                    Follow-up sessions are designed to monitor progress, adjust treatment plans, and support long-term results. By assessing changes in symptoms, function, and overall well-being, we ensure your care remains effective and personalized. These sessions also provide guidance on lifestyle, self-care, and preventive strategies to maintain optimal health.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Sound Therapy */}
+            <div className="mb-16">
+              <h2 className="font-serif text-4xl font-semibold text-gray-900 mb-8 pb-4 border-b-2 border-sage-200">
+                Sound Therapy
+              </h2>
+              <div className="space-y-6">
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between pb-4 border-b border-sage-100">
+                  <h3 className="font-serif text-2xl font-medium text-gray-900 mb-2 sm:mb-0">
+                    New Patient Visit
+                  </h3>
+                  <div className="text-right">
+                    <p className="text-3xl font-bold text-sage-600">$125</p>
+                    <p className="text-sm text-gray-500 mt-1">60 minutes</p>
+                  </div>
+                </div>
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
+                  <h3 className="font-serif text-2xl font-medium text-gray-900 mb-2 sm:mb-0">
+                    Follow-up Session
+                  </h3>
+                  <div className="text-right">
+                    <p className="text-3xl font-bold text-sage-600">$100</p>
+                    <p className="text-sm text-gray-500 mt-1">45 minutes</p>
+                  </div>
+                </div>
               </div>
             </div>
 
             {/* Pre-payment Discount Plans */}
             <div className="mb-16">
-              <h2 className="font-serif text-3xl font-semibold text-gray-900 mb-8 pb-4 border-b-2 border-sage-200">
+              <h2 className="font-serif text-4xl font-semibold text-gray-900 mb-8 pb-4 border-b-2 border-sage-200">
                 Pre-payment Discount Plans
               </h2>
               <div className="grid sm:grid-cols-2 gap-6">
                 <div className="bg-sage-50 border-2 border-sage-200 rounded-xl p-8 text-center hover:border-sage-400 transition-colors">
                   <p className="text-sage-700 font-medium text-lg mb-2">5 visits</p>
-                  <p className="text-4xl font-bold text-gray-900">$550</p>
-                  <p className="text-sm text-gray-600 mt-2">Save $75</p>
+                  <p className="text-4xl font-bold text-gray-900">$575</p>
                 </div>
                 <div className="bg-sage-50 border-2 border-sage-200 rounded-xl p-8 text-center hover:border-sage-400 transition-colors">
                   <p className="text-sage-700 font-medium text-lg mb-2">10 visits</p>
                   <p className="text-4xl font-bold text-gray-900">$1,000</p>
-                  <p className="text-sm text-gray-600 mt-2">Save $250</p>
                 </div>
               </div>
             </div>
