@@ -201,7 +201,7 @@ export default function HomePage() {
               {/* Additional info */}
               <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                  <div className="text-3xl font-bold text-white mb-2">120</div>
+                  <div className="text-3xl font-bold text-white mb-2">60–120</div>
                   <div className="text-sm text-sage-100">Minutes for new patient visits</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
@@ -290,9 +290,8 @@ export default function HomePage() {
                     <div>
                       <div className="text-sm text-gray-500 mb-1">Office Hours</div>
                       <div className="text-lg font-semibold text-gray-900">
-                        Monday: 9:00 AM - 5:00 PM<br />
-                        Saturday: 9:00 AM - 5:00 PM<br />
-                        <span className="text-base">Other days: By appointment only</span>
+                        Monday – Saturday<br />
+                        9:00 AM – 6:00 PM
                       </div>
                     </div>
                   </div>
