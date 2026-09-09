@@ -201,7 +201,7 @@ export default function ServicesPage() {
                       Traditional Chinese Medicine is a comprehensive medical system that emphasizes functional regulation and systemic balance. Acupuncture, herbal medicine, and related therapies — such as cupping, gua sha, moxibustion, tui na — modulate neuroendocrine, immune, and circulatory functions by stimulating specific anatomical points, supporting homeostasis, pain modulation, and autonomic nervous system regulation.
                     </p>
                     <div className="rounded-2xl overflow-hidden">
-                      <img src="/images/service-tcm.png" alt="Traditional Chinese Medicine" className="w-full h-auto" />
+                      <img src="/images/service-tcm.jpg" alt="Traditional Chinese Medicine: acupuncture, herbal medicine, cupping, tui na, moxibustion, and gua sha" width={1280} height={853} className="w-full h-auto" />
                     </div>
                   </div>
 
