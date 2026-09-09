@@ -50,7 +50,7 @@ export default function HomePage() {
                 </div>
 
                 {/* Trust Indicators */}
-                <div className="flex flex-wrap items-center gap-8 mt-12 pt-8 border-t border-sage-200">
+                <div className="flex flex-col items-start gap-5 mt-12 pt-8 border-t border-sage-200">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-sage-100 rounded-full flex items-center justify-center">
                       <svg className="w-5 h-5 text-sage-600" fill="currentColor" viewBox="0 0 20 20">
@@ -62,6 +62,13 @@ export default function HomePage() {
                       <div className="text-xs text-gray-500">Licensed Acupuncturist</div>
                     </div>
                   </div>
+                  <img
+                    src="/images/ncbahm-acupuncture-badge.png"
+                    alt="NCBAHM Certified Diplomate in Acupuncture"
+                    width={1200}
+                    height={1200}
+                    className="w-48 h-auto rounded-lg"
+                  />
 
                 </div>
               </div>
