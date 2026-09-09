@@ -1,3 +1,4 @@
+import BookingEmbed from '@/components/BookingEmbed';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Button from '@/components/Button';
@@ -67,15 +68,15 @@ export default function CosmeticBeautyPage() {
         <section className="bg-sage-50 py-4 border-b border-sage-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <nav className="flex items-center gap-2 text-sm">
-              <Link href="/" className="text-gray-600 hover:text-sage-600 transition-colors">Home</Link>
+              <Link href="/" className="text-gray-600 hover:text-black transition-colors">Home</Link>
               <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
               </svg>
-              <Link href="/what-we-treat" className="text-gray-600 hover:text-sage-600 transition-colors">What We Treat</Link>
+              <Link href="/what-we-treat" className="text-gray-600 hover:text-black transition-colors">What We Treat</Link>
               <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
               </svg>
-              <span className="text-sage-700 font-medium">Cosmetic & Beauty</span>
+              <span className="text-black font-medium">Cosmetic & Beauty</span>
             </nav>
           </div>
         </section>
@@ -84,7 +85,7 @@ export default function CosmeticBeautyPage() {
         <section className="relative py-16 lg:py-24 bg-gradient-to-br from-sage-50 via-white to-sage-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="font-serif text-4xl lg:text-5xl font-light text-gray-900 mb-6 leading-tight">
-              Cosmetic & <span className="italic text-sage-600">Beauty Acupuncture</span>
+              Cosmetic & <span className="italic text-black">Beauty Acupuncture</span>
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
               Discover natural facial rejuvenation through cosmetic acupuncture—a non-invasive approach
@@ -99,7 +100,7 @@ export default function CosmeticBeautyPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="font-serif text-3xl lg:text-4xl font-light text-gray-900 mb-6">
-                  Natural Facial <span className="italic text-sage-600">Rejuvenation</span>
+                  Natural Facial <span className="italic text-black">Rejuvenation</span>
                 </h2>
                 <div className="space-y-4 text-gray-600 leading-relaxed">
                   <p>
@@ -121,10 +122,10 @@ export default function CosmeticBeautyPage() {
               </div>
 
               <div className="relative">
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-sage-100 to-sage-200">
+                <div className="aspect-[3/2] rounded-2xl overflow-hidden bg-gradient-to-br from-sage-100 to-sage-200">
                   <img
-                    src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=800&q=80"
-                    alt="Cosmetic acupuncture treatment"
+                    src="/images/treats/cosmetic-beauty.jpg"
+                    alt="Facial acupuncture treatment with a soft floral background"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -138,7 +139,7 @@ export default function CosmeticBeautyPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="font-serif text-3xl lg:text-4xl font-light text-gray-900 mb-4">
-                Conditions We <span className="italic text-sage-600">Treat</span>
+                Conditions We <span className="italic text-black">Treat</span>
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 Our cosmetic treatments address a wide range of skin and beauty concerns
@@ -149,7 +150,7 @@ export default function CosmeticBeautyPage() {
               {conditions.map((condition) => (
                 <div key={condition} className="bg-white rounded-xl p-4 border border-sage-100 hover:border-sage-300 hover:shadow-md transition-all">
                   <div className="flex items-center gap-3">
-                    <svg className="w-5 h-5 text-sage-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-black flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                     <span className="text-gray-700 font-medium">{condition}</span>
@@ -165,7 +166,7 @@ export default function CosmeticBeautyPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="font-serif text-3xl lg:text-4xl font-light text-gray-900 mb-4">
-                Our <span className="italic text-sage-600">Approach</span>
+                Our <span className="italic text-black">Approach</span>
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 A comprehensive beauty protocol that enhances your natural radiance
@@ -223,14 +224,14 @@ export default function CosmeticBeautyPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="font-serif text-3xl lg:text-4xl font-light text-gray-900 mb-4">
-                Treatment <span className="italic text-sage-600">Benefits</span>
+                Treatment <span className="italic text-black">Benefits</span>
               </h2>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {benefits.map((benefit) => (
                 <div key={benefit.title} className="bg-white p-6 rounded-xl border border-sage-100 hover:shadow-lg transition-shadow">
-                  <div className="w-12 h-12 bg-sage-100 rounded-full flex items-center justify-center mb-4 text-sage-600">
+                  <div className="w-12 h-12 bg-sage-100 rounded-full flex items-center justify-center mb-4 text-black">
                     {benefit.icon}
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-2">{benefit.title}</h3>
@@ -252,17 +253,12 @@ export default function CosmeticBeautyPage() {
             <h2 className="font-serif text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
               Enhance Your Natural <span className="italic">Beauty?</span>
             </h2>
-            <p className="text-xl text-sage-100 mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl text-white mb-10 max-w-2xl mx-auto leading-relaxed">
               Schedule a consultation to discover how cosmetic acupuncture can help you achieve radiant, youthful skin naturally.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="https://portal.holbie.com/prc-appt-form/GT5/DCW/0/direct" variant="secondary" size="lg" className="bg-white hover:bg-gray-50 text-sage-900 shadow-xl">
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <span>Book Consultation</span>
-              </Button>
+              <BookingEmbed />
               <Button href="/contact" variant="outline" size="lg" className="border-2 border-white/30 hover:bg-white/10 text-white backdrop-blur-sm">
                 Contact Us
               </Button>
@@ -273,7 +269,7 @@ export default function CosmeticBeautyPage() {
         {/* Back Link */}
         <section className="py-8 bg-white border-t border-sage-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Link href="/what-we-treat" className="inline-flex items-center gap-2 text-sage-600 hover:text-sage-700 font-medium group">
+            <Link href="/what-we-treat" className="inline-flex items-center gap-2 text-black hover:text-black font-medium group">
               <svg className="w-4 h-4 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7"/>
               </svg>

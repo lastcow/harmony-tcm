@@ -1,3 +1,4 @@
+import BookingEmbed from '@/components/BookingEmbed';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
@@ -13,18 +14,7 @@ export default function FeePage() {
       <Header />
       <main className="overflow-hidden">
         {/* Hero Section */}
-        <section className="relative py-20 lg:py-28 overflow-hidden">
-          {/* Background Image */}
-          <div className="absolute inset-0">
-            <img
-              src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&q=80"
-              alt="Fee background"
-              className="w-full h-full object-cover"
-            />
-            {/* Gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-sage-900/80 via-sage-800/70 to-sage-900/80" />
-          </div>
-
+        <section className="relative py-20 lg:py-28 overflow-hidden bg-sage-600">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <h1 className="font-serif text-5xl lg:text-6xl font-light text-white mb-6 leading-tight">
               Fee
@@ -47,7 +37,7 @@ export default function FeePage() {
                     New Patient Visit
                   </h3>
                   <div className="text-right">
-                    <p className="text-3xl font-bold text-sage-600">$125</p>
+                    <p className="text-3xl font-bold text-sage-600">$145</p>
                     <p className="text-sm text-gray-500 mt-1">60 minutes</p>
                   </div>
                 </div>
@@ -56,7 +46,7 @@ export default function FeePage() {
                     Follow-up Session
                   </h3>
                   <div className="text-right">
-                    <p className="text-3xl font-bold text-sage-600">$100</p>
+                    <p className="text-3xl font-bold text-sage-600">$125</p>
                     <p className="text-sm text-gray-500 mt-1">45 minutes</p>
                   </div>
                 </div>
@@ -144,7 +134,7 @@ export default function FeePage() {
                     New Patient Visit
                   </h3>
                   <div className="text-right">
-                    <p className="text-3xl font-bold text-sage-600">$125</p>
+                    <p className="text-3xl font-bold text-sage-600">$145</p>
                     <p className="text-sm text-gray-500 mt-1">60 minutes</p>
                   </div>
                 </div>
@@ -153,8 +143,35 @@ export default function FeePage() {
                     Follow-up Session
                   </h3>
                   <div className="text-right">
-                    <p className="text-3xl font-bold text-sage-600">$100</p>
+                    <p className="text-3xl font-bold text-sage-600">$125</p>
                     <p className="text-sm text-gray-500 mt-1">45 minutes</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Cosmetic &amp; Beauty */}
+            <div className="mb-16">
+              <h2 className="font-serif text-4xl font-semibold text-gray-900 mb-8 pb-4 border-b-2 border-sage-200">
+                Cosmetic &amp; Beauty
+              </h2>
+              <div className="space-y-6">
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between pb-4 border-b border-sage-100">
+                  <h3 className="font-serif text-2xl font-medium text-gray-900 mb-2 sm:mb-0">
+                    New Patient Visit
+                  </h3>
+                  <div className="text-right">
+                    <p className="text-3xl font-bold text-sage-600">$175</p>
+                    <p className="text-sm text-gray-500 mt-1">90 minutes</p>
+                  </div>
+                </div>
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
+                  <h3 className="font-serif text-2xl font-medium text-gray-900 mb-2 sm:mb-0">
+                    Follow-up Session
+                  </h3>
+                  <div className="text-right">
+                    <p className="text-3xl font-bold text-sage-600">$150</p>
+                    <p className="text-sm text-gray-500 mt-1">60 minutes</p>
                   </div>
                 </div>
               </div>
@@ -219,17 +236,7 @@ export default function FeePage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://portal.holbie.com/prc-appt-form/GT5/DCW/0/direct"
-                className="inline-flex items-center justify-center gap-2 bg-sage-600 hover:bg-sage-700 text-white px-8 py-3.5 rounded-lg font-medium transition-colors shadow-lg text-lg"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <span>Book Your Consultation</span>
-              </a>
+              <BookingEmbed />
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 border-2 border-sage-600 hover:bg-sage-50 text-sage-700 px-8 py-3.5 rounded-lg font-medium transition-colors text-lg"

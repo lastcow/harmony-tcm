@@ -1,3 +1,4 @@
+import BookingEmbed from '@/components/BookingEmbed';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -43,7 +44,7 @@ export default function Footer() {
               <li><Link href="/services" className="hover:text-white transition-colors">Our Services</Link></li>
               <li><Link href="/is-your-acupuncturist-board-certified" className="hover:text-white transition-colors">Resources</Link></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-              <li><a href="https://portal.holbie.com/prc-appt-form/GT5/DCW/0/direct" className="hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">Book Appointment</a></li>
+              <li><BookingEmbed /></li>
             </ul>
           </div>
 

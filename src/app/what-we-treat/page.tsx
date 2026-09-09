@@ -1,3 +1,4 @@
+import BookingEmbed from '@/components/BookingEmbed';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Button from '@/components/Button';
@@ -60,8 +61,8 @@ const treatmentCategories = [
     ),
   },
   {
-    title: "Smoking Cessation & Substance Support",
-    description: "Break free from addiction through treatments that reduce cravings, regulate stress response, and strengthen healthy coping mechanisms.",
+    title: "Smoking, Alcohol & Addiction Recovery",
+    description: "Individualized support for smoking, alcohol use, and addictive behaviors through acupuncture and holistic therapies that complement appropriate conventional care.",
     link: "/what-we-treat/smoking-cessation",
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -110,16 +111,16 @@ export default function WhatWeTreatPage() {
         <section className="relative py-20 lg:py-28 bg-gradient-to-br from-sage-50 via-white to-sage-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-sage-100/80 backdrop-blur-sm rounded-full mb-6">
-              <svg className="w-4 h-4 text-sage-600" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
               </svg>
-              <span className="text-sage-700 text-sm font-medium tracking-wide">
+              <span className="text-black text-sm font-medium tracking-wide">
                 COMPREHENSIVE CARE
               </span>
             </div>
 
             <h1 className="font-serif text-5xl lg:text-6xl font-light text-gray-900 mb-6 leading-tight">
-              What We <span className="italic text-sage-600">Treat</span>
+              What We <span className="italic text-black">Treat</span>
             </h1>
 
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
@@ -139,16 +140,16 @@ export default function WhatWeTreatPage() {
                   href={category.link}
                   className="group bg-white rounded-xl border border-sage-100 hover:border-sage-300 hover:shadow-lg transition-all duration-300 p-6"
                 >
-                  <div className="w-12 h-12 bg-sage-50 rounded-lg flex items-center justify-center mb-4 text-sage-600 group-hover:bg-sage-100 transition-colors">
+                  <div className="w-12 h-12 bg-sage-50 rounded-lg flex items-center justify-center mb-4 text-black group-hover:bg-sage-100 transition-colors">
                     {category.icon}
                   </div>
-                  <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-sage-700 transition-colors">
+                  <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-black transition-colors">
                     {category.title}
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed mb-4">
                     {category.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 text-sage-600 text-sm font-medium">
+                  <span className="inline-flex items-center gap-1 text-black text-sm font-medium">
                     Learn More
                     <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -172,24 +173,19 @@ export default function WhatWeTreatPage() {
               Ready to Begin Your <span className="italic">Healing Journey?</span>
             </h2>
 
-            <p className="text-xl text-sage-100 mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl text-white mb-10 max-w-2xl mx-auto leading-relaxed">
               Schedule a comprehensive consultation to discuss your specific health concerns and discover
               how our personalized treatments can help you achieve lasting wellness.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="https://portal.holbie.com/prc-appt-form/GT5/DCW/0/direct" variant="secondary" size="lg" className="bg-white hover:bg-gray-50 text-sage-900 shadow-xl">
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <span>Book Your Consultation</span>
-              </Button>
+              <BookingEmbed />
               <Button href="/contact" variant="outline" size="lg" className="border-2 border-white/30 hover:bg-white/10 text-white backdrop-blur-sm">
                 Contact Us
               </Button>
             </div>
 
-            <div className="mt-12 flex flex-wrap justify-center gap-8 text-sage-100">
+            <div className="mt-12 flex flex-wrap justify-center gap-8 text-white">
               <div className="flex items-center gap-2">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>

@@ -1,5 +1,6 @@
 'use client';
 
+import BookingEmbed from '@/components/BookingEmbed';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
@@ -73,14 +74,7 @@ export default function Header() {
             >
               (717) 490-5991
             </Link>
-            <a
-              href="https://portal.holbie.com/prc-appt-form/GT5/DCW/0/direct"
-              className="bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium px-5 py-2.5 rounded-lg transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Book Appointment
-            </a>
+            <BookingEmbed />
           </div>
 
           {/* Mobile Menu Button */}
@@ -156,15 +150,7 @@ export default function Header() {
               About
             </Link>
             <div className="pt-4">
-              <a
-                href="https://portal.holbie.com/prc-appt-form/GT5/DCW/0/direct"
-                className="block text-center bg-primary-600 text-white px-4 py-2.5 rounded-lg font-medium"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Book Appointment
-              </a>
+              <BookingEmbed />
             </div>
           </div>
         </div>

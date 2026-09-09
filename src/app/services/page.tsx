@@ -1,5 +1,6 @@
 'use client';
 
+import BookingEmbed from '@/components/BookingEmbed';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Button from '@/components/Button';
@@ -264,9 +265,7 @@ export default function ServicesPage() {
               Whether you are seeking relief from pain, stress reduction, or a holistic approach to health, our practitioners are here to guide you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="https://portal.holbie.com/prc-appt-form/GT5/DCW/0/direct" variant="primary">
-                Book an Appointment
-              </Button>
+              <BookingEmbed />
               <Button href="/fee" variant="outline">
                 View Pricing
               </Button>
