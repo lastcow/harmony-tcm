@@ -38,7 +38,7 @@ export default function FeePage() {
                   </h3>
                   <div className="text-right">
                     <p className="text-3xl font-bold text-sage-600">$145</p>
-                    <p className="text-sm text-gray-500 mt-1">60 minutes</p>
+                    <p className="text-sm text-gray-500 mt-1">120 minutes</p>
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
@@ -47,7 +47,7 @@ export default function FeePage() {
                   </h3>
                   <div className="text-right">
                     <p className="text-3xl font-bold text-sage-600">$125</p>
-                    <p className="text-sm text-gray-500 mt-1">45 minutes</p>
+                    <p className="text-sm text-gray-500 mt-1">90 minutes</p>
                   </div>
                 </div>
               </div>
@@ -65,7 +65,7 @@ export default function FeePage() {
                   </h3>
                   <div className="text-right">
                     <p className="text-3xl font-bold text-sage-600">$145</p>
-                    <p className="text-sm text-gray-500 mt-1">90 minutes</p>
+                    <p className="text-sm text-gray-500 mt-1">120 minutes</p>
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
@@ -74,7 +74,7 @@ export default function FeePage() {
                   </h3>
                   <div className="text-right">
                     <p className="text-3xl font-bold text-sage-600">$125</p>
-                    <p className="text-sm text-gray-500 mt-1">60 minutes</p>
+                    <p className="text-sm text-gray-500 mt-1">90 minutes</p>
                   </div>
                 </div>
               </div>
@@ -94,7 +94,7 @@ export default function FeePage() {
                   </h3>
                   <div className="text-right">
                     <p className="text-3xl font-bold text-sage-600">$165</p>
-                    <p className="text-sm text-gray-500 mt-1">approx. 90 minutes</p>
+                    <p className="text-sm text-gray-500 mt-1">120 minutes</p>
                   </div>
                 </div>
                 <div className="prose prose-lg max-w-none">
@@ -112,7 +112,7 @@ export default function FeePage() {
                   </h3>
                   <div className="text-right">
                     <p className="text-3xl font-bold text-sage-600">$125</p>
-                    <p className="text-sm text-gray-500 mt-1">approx. 1 hour</p>
+                    <p className="text-sm text-gray-500 mt-1">90 minutes</p>
                   </div>
                 </div>
                 <div className="prose prose-lg max-w-none">
@@ -135,7 +135,7 @@ export default function FeePage() {
                   </h3>
                   <div className="text-right">
                     <p className="text-3xl font-bold text-sage-600">$145</p>
-                    <p className="text-sm text-gray-500 mt-1">60 minutes</p>
+                    <p className="text-sm text-gray-500 mt-1">120 minutes</p>
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
@@ -144,7 +144,7 @@ export default function FeePage() {
                   </h3>
                   <div className="text-right">
                     <p className="text-3xl font-bold text-sage-600">$125</p>
-                    <p className="text-sm text-gray-500 mt-1">45 minutes</p>
+                    <p className="text-sm text-gray-500 mt-1">90 minutes</p>
                   </div>
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function FeePage() {
                   </h3>
                   <div className="text-right">
                     <p className="text-3xl font-bold text-sage-600">$175</p>
-                    <p className="text-sm text-gray-500 mt-1">90 minutes</p>
+                    <p className="text-sm text-gray-500 mt-1">120 minutes</p>
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
@@ -171,7 +171,7 @@ export default function FeePage() {
                   </h3>
                   <div className="text-right">
                     <p className="text-3xl font-bold text-sage-600">$150</p>
-                    <p className="text-sm text-gray-500 mt-1">60 minutes</p>
+                    <p className="text-sm text-gray-500 mt-1">90 minutes</p>
                   </div>
                 </div>
               </div>
