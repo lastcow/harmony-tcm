@@ -1,3 +1,4 @@
+import BookingEmbed from '@/components/BookingEmbed';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Button from '@/components/Button';
@@ -140,28 +141,32 @@ export default function AboutPage() {
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-2 mb-4">
                 Dr. Karen Lau
               </h2>
-              <p className="text-sage-600 italic">DMA, Dipl.Ac., L.Ac.</p>
+              <p className="text-sage-600 italic">DAc, DMA, Dipl.Ac., L.Ac.</p>
             </div>
 
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
-                Dr. Karen Lau, DMA, Dipl.Ac., L.Ac., is board certified by the National Certification Board for Acupuncture and Herbal Medicine (NCBAHM) and also a state-licensed acupuncturist with advanced training in Traditional Chinese Medicine and integrative health care. She holds a master&apos;s degree in Acupuncture and is currently a doctoral candidate, with a clinical focus on cancer care, nervous system regulation, reproductive health, pain management, and holistic wellness.
+                Dr. Karen Lau is a distinguished clinician, scholar, educator, and performing artist specializing in cello, Traditional Chinese Medicine (TCM), integrative health care, and somatic education. She is board certified by the National Certification Board for Acupuncture and Herbal Medicine (NCBAHM) and is a state-licensed acupuncturist with advanced clinical and academic training in both China and the United States.
               </p>
 
               <p className="mb-6">
-                In addition to her medical training, Dr. Lau is an internationally certified Alexander Technique instructor, integrating movement education and neuromuscular re-education into her clinical and educational work. She also holds a Doctoral degree in Cello Performance, reflecting her deep commitment to artistic excellence and somatic awareness.
+                Dr. Lau holds a Doctoral degree in Acupuncture, with a clinical focus encompassing integrative cancer care, nervous system regulation, reproductive health, pain management, and comprehensive wellness. Her advanced training in Chinese herbal medicine was conducted under the mentorship of Professor Yi Pan, a distinguished educator and practitioner of Traditional Chinese Medicine and a professor at Guangzhou University of Chinese Medicine. This specialized training has contributed to her sophisticated understanding of classical herbal theory, clinical formulation, and the integration of traditional therapeutic principles with contemporary health-care approaches.
               </p>
 
               <p className="mb-6">
-                As an educator, Dr. Lau previously served on the faculty of the Sichuan Conservatory of Music and currently serves as faculty at Frostburg State University, where she teaches and mentors students in higher education. Her interdisciplinary background allows her to bridge music, movement, and health sciences in both academic and clinical settings.
+                In addition to her expertise in acupuncture and Chinese medicine, Dr. Lau is an internationally certified instructor of the Alexander Technique, a discipline emphasizing functional movement, postural coordination, body awareness, and neuromuscular re-education. She integrates these principles into her clinical and educational practice, developing a multidisciplinary approach that bridges traditional medicine, movement science, somatic awareness, and functional rehabilitation.
               </p>
 
               <p className="mb-6">
-                Outside of university teaching, Dr. Lau is deeply committed to youth education. She works closely with younger generations, guiding students who have gone on to become international competition winners and members of the Maryland Classic Youth Orchestra. Her pedagogical approach emphasizes technical excellence, integrated mind-body awareness, and the cultivation of long-term artistic sustainability.
+                Dr. Lau also holds a Doctoral degree in Cello Performance, reflecting her extensive scholarly and artistic training, as well as her longstanding commitment to precision, embodied awareness, and excellence in performance. Since 2013, she has taught string-related courses at Frostburg State University, contributing to the university&apos;s music education. Her teaching encompasses her extensive expertise in string performance, pedagogy, musicianship, and the relationship between musical performance and embodied awareness.
               </p>
 
               <p className="mb-6">
-                Through her unique integration of acupuncture, movement education, and music performance, Dr. Lau brings a rare, multidimensional perspective to healing, education, and human performance.
+                Her unique interdisciplinary background in medicine, movement education, and music informs a highly integrative clinical and pedagogical philosophy—one that recognizes the dynamic relationships among the nervous system, movement, perception, emotional well-being, and overall health. Her experience as both a clinician and university educator enables her to bring together scientific inquiry, traditional healing systems, somatic awareness, and artistic practice in innovative ways.
+              </p>
+
+              <p className="mb-6">
+                Through the synthesis of music, TCM, somatic education, and neuromuscular re-education, Dr. Lau brings a distinctive interdisciplinary perspective to contemporary integrative health care and higher education. Her work is grounded in rigorous professional training, scholarly inquiry, artistic excellence, and a commitment to individualized, whole-person care.
               </p>
             </div>
 
@@ -184,9 +189,7 @@ export default function AboutPage() {
               Schedule a consultation with Dr. Lau to discuss your needs and discover how our integrative approach can help you thrive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="https://portal.holbie.com/prc-appt-form/GT5/DCW/0/direct" variant="secondary">
-                Book Appointment
-              </Button>
+              <BookingEmbed />
               <Button href="/contact" variant="outline">
                 Contact Us
               </Button>

@@ -37,7 +37,7 @@ export default function BoardCertifiedPage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                Dr. Karen Lau, DMA, Dipl.Ac., L.Ac., is board certified by the National Certification Board for Acupuncture and Herbal Medicine (NCBAHM), the national certifying organization responsible for assessing and validating professional competence in the practice of acupuncture and herbal medicine.
+                Dr. Karen Lau, DAc, DMA, Dipl.Ac., L.Ac., is board certified by the National Certification Board for Acupuncture and Herbal Medicine (NCBAHM), the national certifying organization responsible for assessing and validating professional competence in the practice of acupuncture and herbal medicine.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
