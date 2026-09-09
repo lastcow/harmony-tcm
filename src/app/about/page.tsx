@@ -30,9 +30,13 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="relative">
-                <div className="aspect-[4/3.5] rounded-2xl overflow-hidden bg-gradient-to-br from-sage-100 to-sage-200">
-                  <div className="absolute inset-0 bg-[url('/images/about-hero.jpg')] bg-cover bg-[center_32%] rounded-2xl" />
-                </div>
+                <img
+                  src="/images/karen-lau-portrait.png"
+                  alt="Portrait of Dr. Karen Lau"
+                  width={1023}
+                  height={1537}
+                  className="w-full max-w-sm h-auto mx-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
