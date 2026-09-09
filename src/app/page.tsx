@@ -194,8 +194,8 @@ export default function HomePage() {
               {/* Additional info */}
               <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                  <div className="text-3xl font-bold text-white mb-2">60-90</div>
-                  <div className="text-sm text-sage-100">Minutes consultation</div>
+                  <div className="text-3xl font-bold text-white mb-2">120</div>
+                  <div className="text-sm text-sage-100">Minutes for new patient visits</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
                   <div className="text-3xl font-bold text-white mb-2">✓</div>
